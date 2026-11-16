@@ -57,8 +57,6 @@ public:
 	bool						getAccountByName( const char* name, VxNetIdent& oUserAccount ); 
 	//! remove account by name
 	bool 						removeAccountByName( const char* name ); 
-    //! retrieve all accounts
-    bool						getAllAccounts( std::vector<VxNetIdent>& accountList );
 
     //=========================================================================
     //! get profile data for account

@@ -1,0 +1,8 @@
+NoLimitConnect Cleanup todo list
+Maybe backport new video player for faster cleaner movie playback
+
+Completed:
+Remove resources not in use
+Remove icons/resources not in use
+Remove create/delete multiple user accounts
+

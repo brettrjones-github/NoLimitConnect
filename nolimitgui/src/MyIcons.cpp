@@ -154,8 +154,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 		return ":/AppRes/Resources/overlay-direct-connected.svg";
 	case eMyIconNotifyInGroupOverlay:
 		return ":/AppRes/Resources/notify-in-group.svg";
-	case eMyIconNotifyOfflineOverlay:
-		return ":/AppRes/Resources/notify-offline.svg";
     case eMyIconNotifyOfferOverlay:		
         return ":/AppRes/Resources/notify-offer.svg";
     case eMyIconNotifyForbbidenOverlay:		
@@ -165,12 +163,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 
 	case eMyIconEyeOverlay:
 		return ":/AppRes/Resources/overlay-eye.svg";
-	case eMyIconPlusOverlay:		// add to library or shared files
-		return ":/AppRes/Resources/overlay-plus.svg";
-	case eMyIconMinusOverlay:		// remove from library or shared files
-		return ":/AppRes/Resources/overlay-minus.svg";
-	case eMyIconFriendOverlay:		// is friend
-		return ":/AppRes/Resources/overlay-friend.svg";
 	case eMyIconGlobeOverlay:		
 		return ":/AppRes/Resources/overlay-globe.svg";
 	case eMyIconNlcFavoriteOverlay:		// nlc icon in upper left
@@ -206,13 +198,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
     case eMyIconSearchWebCam:
         return ":/AppRes/Resources/search-webcam.svg";
 
-    case eMyIconShareWithPerson:
-        return ":/AppRes/Resources/share-with-person.svg";
-
-	case eMyIconServers:
-		return ":/AppRes/Resources/radio-tower.svg";
-	case eMyIconEmoticonSmile:
-		return ":/AppRes/Resources/emoticon-smile.svg";
 	case eMyIconFileServer:
 		return ":/AppRes/Resources/file-folder-share.svg";
 
@@ -234,10 +219,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
         return ":/AppRes/Resources/eye-hide.svg";
     case eMyIconEyeRandomConnect:
         return ":/AppRes/Resources/eye-random-connect.svg";
-	case eMyIconEyeSearchDisabled:
-		return ":/AppRes/Resources/eye-search-disabled.svg";
-	case eMyIconEyeSearchEnabled:
-		return ":/AppRes/Resources/eye-search-enabled.svg";
     case eMyIconEyeShow:
         return ":/AppRes/Resources/eye-show.svg";
 
@@ -251,9 +232,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 		return ":/AppRes/Resources/unknown-person.svg";
 	case eMyIconIgnored:
 		return ":/AppRes/Resources/forbidden.svg";
-
-	case eMyIconFriendBroadcast:
-		return ":/AppRes/Resources/friend-broadcast.svg";
 
     case eMyIconChatRoomClient:
         return ":/AppRes/Resources/client-chat-room.svg";
@@ -271,8 +249,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 	case eMyIconProfileDisabled:
 		return ":/AppRes/Resources/lock.svg";
 
-	case eMyIconFileDownloadDisabled:
-		return ":/AppRes/Resources/lock.svg";
 	case eMyIconFileDownloadCancel:
 		return ":/AppRes/Resources/lock.svg";
 	case eMyIconFileDownloadNormal:
@@ -287,8 +263,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 	case eMyIconSendFileIgnored:
 		return ":/AppRes/Resources/lock.svg";
 
-	case eMyIconWebCamServer:
-		return ":/AppRes/Resources/radio-tower.svg";
 	case eMyIconWebCamServerLocked:
 	case eMyIconWebCamServerIgnored:
 	case eMyIconWebCamServerDisabled:
@@ -299,8 +273,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 	case eMyIconMultiSessionLocked:
 	case eMyIconMultiSessionIgnored:
 	case eMyIconMultiSessionDisabled:
-		return ":/AppRes/Resources/lock.svg";
-	case eMyIconMultiSessionCancel:
 		return ":/AppRes/Resources/lock.svg";
 
 	case eMyIconVideoPhoneCancel:
@@ -321,8 +293,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 	case eMyIconVoicePhoneDisabled:
 		return ":/AppRes/Resources/lock.svg";
 
-	case eMyIconPushToTalkCancel:
-		return ":/AppRes/Resources/lock.svg";
 	case eMyIconPushToTalkOff:
 		return ":/AppRes/Resources/push-to-talk-off.svg";
 	case eMyIconPushToTalkOn:
@@ -335,11 +305,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 	case eMyIconMicrophoneOn:
 		return ":/AppRes/Resources/microphone.svg";
 	case eMyIconMicrophoneOff:
-		return ":/AppRes/Resources/microphone-muted.svg";
-
-	case eMyIconMicrophoneCancelNormal:
-		return ":/AppRes/Resources/microphone-muted.svg";
-	case eMyIconMicrophoneCancelDisabled:
 		return ":/AppRes/Resources/microphone-muted.svg";
 
 	case eMyIconTruthOrDareCancel:
@@ -355,8 +320,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 		return ":/AppRes/Resources/key.svg";
     case eMyIconKeyEnabled:
         return ":/AppRes/Resources/key-enabled.svg";
-    case eMyIconKeyDisabled:
-        return ":/AppRes/Resources/key-disabled.svg";
 	case eMyIconNotifyStarWhite:
 		return ":/AppRes/Resources/notify-dot.svg";
 	case eMyIconNotifyStarGreen:
@@ -378,17 +341,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 	case eMyIconOther:
 		return ":/AppRes/Resources/mediatype-other.svg";
 
-	case eMyIconUpOneDirectory:
-		return ":/AppRes/Resources/file-folder-up-directory.svg";
-	case eMyIconFileUpload:
-		return ":/AppRes/Resources/cloud-upload.svg";
-	case eMyIconFileDownload:
-		return ":/AppRes/Resources/cloud-download.svg";
-	case eMyIconFileAdd:
-		return ":/AppRes/Resources/file-folder-plus.svg";
-	case eMyIconFileRemove:
-		return ":/AppRes/Resources/file-folder-minus.svg";
-
 	case eMyIconStoryBoardNormal:
 		return ":/AppRes/Resources/storyboard.svg";
 	case eMyIconStoryBoardDisabled:
@@ -403,11 +355,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 
 	case eMyIconDebug:
 		return ":/AppRes/Resources/bug.svg";
-	case eMyIconFileShareOptions:
-		return ":/AppRes/Resources/file-folder-normal.svg";
-	case eMyIconFileShareAddRemove:
-		return ":/AppRes/Resources/file-folder-normal.svg";
-
 
 	case eMyIconShareFilesDisabled:
 		return ":/AppRes/Resources/file-folder-normal.svg";
@@ -418,12 +365,8 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 
 	case eMyIconPauseNormal:
 		return ":/AppRes/Resources/mediacontrol-pause.svg";
-	case eMyIconPauseDisabled:
-		return ":/AppRes/Resources/mediacontrol-pause.svg";
 
 	case eMyIconPlayNormal:
-		return ":/AppRes/Resources/play.svg";
-	case eMyIconPlayDisabled:
 		return ":/AppRes/Resources/play.svg";
 
 	case eMyIconAcceptNormal:
@@ -431,7 +374,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 		return ":/AppRes/Resources/check-mark.svg";
 
 	case eMyIconCancelNormal:
-	case eMyIconCancelDisabled:
 		return ":/AppRes/Resources/x-overlay.svg";
 
 	case eMyIconAcceptCheckMark:
@@ -453,25 +395,13 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 
 	case eMyIconRecordMovieNormal:
 		return ":/AppRes/Resources/videocam-record.svg";
-	case eMyIconRecordMovieDisabled:
-		return ":/AppRes/Resources/videocam-disabled.svg";
 
-	case eMyIconRecordMotionDisabled:
-		return ":/AppRes/Resources/video-motion-record.svg";
-	case eMyIconRecordMotionCancel:
-		return ":/AppRes/Resources/x-overlay.svg";
 	case eMyIconRecordMotionNormal:
 		return ":/AppRes/Resources/video-motion-record.svg";
 
-	case eMyIconMotionAlarmDisabled:
-		return ":/AppRes/Resources/motion-alarm.svg";
-	case eMyIconMotionAlarmCancel:
-		return ":/AppRes/Resources/x-overlay.svg";
 	case eMyIconMotionAlarmRed:
 		return ":/AppRes/Resources/motion-alarm.svg";
 	case eMyIconMotionAlarmWhite:
-		return ":/AppRes/Resources/motion-alarm.svg";
-	case eMyIconMotionAlarmYellow:
 		return ":/AppRes/Resources/motion-alarm.svg";
 
 	case eMyIconSendArrowNormal:
@@ -479,8 +409,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 	case eMyIconSendArrowCancel:
 		return ":/AppRes/Resources/x-overlay.svg";;
 
-	case eMyIconCameraDisabled:
-		return ":/AppRes/Resources/camera.svg";
 	case eMyIconCameraCancel:
 		return ":/AppRes/Resources/x-overlay.svg";
 	case eMyIconCameraNormal:
@@ -488,135 +416,54 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 
 	case eMyIconCamcorderNormal:
 		return ":/AppRes/Resources/webcam.svg";
-	case eMyIconCamcorderDisabled:
-		return ":/AppRes/Resources/webcam.svg";
 	case eMyIconCamcorderCancel:
 		return ":/AppRes/Resources/webcam-stop.svg";
 
-	case eMyIconSelectCameraDisabled:
-		return ":/AppRes/Resources/cam-select.svg";
 	case eMyIconSelectCameraNormal:
 		return ":/AppRes/Resources/cam-select.svg";
 
-	case eMyIconCameraFlashDisabled:
-		return ":/AppRes/Resources/camera-flash.svg";
-	case eMyIconCameraFlashNormal:
-		return ":/AppRes/Resources/camera-flash.svg";
-	case eMyIconCameraFlashCancelNormal:
-		return ":/AppRes/Resources/x-overlay.svg";
-
-	case eMyIconSnapshotDisabled:
-		return ":/AppRes/Resources/camera-snapshot.svg";
-	case eMyIconSnapshotNormal:
-		return ":/AppRes/Resources/camera-snapshot.svg";
-	case eMyIconSnapshotCancelNormal:
-		return ":/AppRes/Resources/x-overlay.svg";
-
-	case eMyIconNotepadDisabled:
-		return ":/AppRes/Resources/notepad.svg";
 	case eMyIconNotepadNormal:
 		return ":/AppRes/Resources/notepad.svg";
 
-	case eMyIconGalleryDisabled:
-		return ":/AppRes/Resources/image-gallery.svg";
 	case eMyIconGalleryNormal:
 		return ":/AppRes/Resources/image-gallery.svg";
-	case eMyIconGalleryCancel:
-		return ":/AppRes/Resources/x-overlay.svg";
 
-	case eMyIconFaceSelectDisabled:
-		return ":/AppRes/Resources/emoticon-smile.svg";
 	case eMyIconFaceSelectNormal:
-		return ":/AppRes/Resources/emoticon-smile.svg";
-
-	case eMyIconFaceCancelNormal:
 		return ":/AppRes/Resources/emoticon-smile.svg";
 
 	case eMyIconCamPreviewNormal:
 		return ":/AppRes/Resources/cam-preview.svg";
-	case eMyIconCamPreviewDisabled:
-		return ":/AppRes/Resources/cam-preview.svg";
 
 	case eMyIconCamPreviewCancelNormal:
-		return ":/AppRes/Resources/cam-preview.svg";
-	case eMyIconCamPreviewCancelDisabled:
 		return ":/AppRes/Resources/cam-preview.svg";
 
 	case eMyIconCamRotateNormal:
 		return ":/AppRes/Resources/cam-rotate.svg";
-	case eMyIconCamRotateDisabled:
-		return ":/AppRes/Resources/cam-rotate.svg";
 
 	case eMyIconCamSetupNormal:
-		return ":/AppRes/Resources/cam-setup.svg";
-	case eMyIconCamSetupDisabled:
-		return ":/AppRes/Resources/cam-setup.svg";
-
-	case eMyIconCamSetupCancelNormal:
-		return ":/AppRes/Resources/cam-setup.svg";
-	case eMyIconCamSetupCancelDisabled:
 		return ":/AppRes/Resources/cam-setup.svg";
 
 	case eMyIconCamSelectNormal:
 		return ":/AppRes/Resources/cam-select.svg";
-	case eMyIconCamSelectDisabled:
-		return ":/AppRes/Resources/cam-select.svg";
 
 	case eMyIconImageRotateNormal:
-		return ":/AppRes/Resources/image-rotate.svg";
-	case eMyIconImageRotateDisabled:
 		return ":/AppRes/Resources/image-rotate.svg";
 
 	case eMyIconFileBrowseNormal:
 		return ":/AppRes/Resources/file-folder-normal.svg";
-	case eMyIconFileBrowseDisabled:
-		return ":/AppRes/Resources/file-folder-normal.svg";
-	case eMyIconFileBrowseCancel:
-		return ":/AppRes/Resources/file-folder-normal.svg";
 
 	case eMyIconMoveUpDirNormal:
 		return ":/AppRes/Resources/file-folder-up-directory.svg";
-	case eMyIconMoveUpDirDisabled:
-		return ":/AppRes/Resources/file-folder-up-directory.svg";
-	case eMyIconMoveUpDirCancel:
-		return ":/AppRes/Resources/file-folder-up-directory.svg";
 
-	case eMyIconLibraryDisabled:
-		return ":/AppRes/Resources/library.svg";
 	case eMyIconLibraryNormal:
 		return ":/AppRes/Resources/library.svg";
 	case eMyIconLibraryCancel:
 		return ":/AppRes/Resources/library-removed.svg";
 
-	case eMyIconEchoCancelNormal:
-		return ":/AppRes/Resources/speakers-on.svg";
-	case eMyIconEchoCancelCancel:
-		return ":/AppRes/Resources/speakers-on.svg";
-
-	case eMyIconSendFailed:
-		return ":/AppRes/Resources/msg_state_fail_resend.png";
-
-	case eMyIconPersonUnknownNormal:
-		return ":/AppRes/Resources/unknown-person.svg";
-
 	case eMyIconMenuNormal:
 		return ":/AppRes/Resources/menu_more_horiz.svg";
 	case eMyIconMenuDisabled:
 		return ":/AppRes/Resources/menu_more_horiz.svg";
-
-	case eMyIconAdministratorDisabled:
-		return ":/AppRes/Resources/user-tie.svg";
-
-	case eMyIconNetworkStateDiscover:
-		return ":/AppRes/Resources/question-mark.svg";
-	case eMyIconNetworkStateDisconnected:
-		return ":/AppRes/Resources/question-mark.svg";
-	case eMyIconNetworkStateDirectConnected:
-		return ":/AppRes/Resources/question-mark.svg";
-	case eMyIconNetworkStateHostFail:
-		return ":/AppRes/Resources/question-mark.svg";
-	case eMyIconNetworkStateRelayConnected:
-		return ":/AppRes/Resources/question-mark.svg";
 
 	//=== title bar icons ===//
 	case eMyIconPowerOff:
@@ -625,10 +472,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 		return ":/AppRes/Resources/home.svg";
     case eMyIconUserIdentity:
         return ":/AppRes/Resources/user-ident.svg";
-    case eMyIconSharedContent:
-        return ":/AppRes/Resources/file-folder-share.svg";
-	case eMyIconShare:
-		return ":/AppRes/Resources/share.svg";
 	case eMyIconMenu:
 		return ":/AppRes/Resources/menu_more_vert.svg";
 	case eMyIconBack:
@@ -639,32 +482,12 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 		return ":/AppRes/Resources/mediacontrol-stop.svg";
 	case eMyIconArrowLeft:
 		return ":/AppRes/Resources/arrow-left.svg";
-	case eMyIcon30SecBackward:
-		return ":/AppRes/Resources/mediacontrol-back-thirty.svg";
-	case eMyIcon30SecForward:
-		return ":/AppRes/Resources/mediacontrol-forward-thirty.svg";
-	case eMyIconArrowRight:
-		return ":/AppRes/Resources/arrow-right.svg";
-	case eMyIconMediaRepeat:
-		return ":/AppRes/Resources/menu_more_vert.svg";
 	case eMyIconWindowExpand:
 		return ":/AppRes/Resources/window-expand.svg";
 	case eMyIconWindowShrink:
 		return ":/AppRes/Resources/window-shrink.svg";
 	case eMyIconMessenger:
 		return ":/AppRes/Resources/speech-bubble.svg";
-	case eMyIconGallery:
-		return ":/AppRes/Resources/image-gallery.svg";
-	case eMyIconVideoStreamViewer:
-		return ":/AppRes/Resources/video-stream-viewer.svg";
-	case eMyIconCamStreamViewer:
-        return ":/AppRes/Resources/client-webcam.svg";
-	case eMyIconMusicStreamPlayer:
-		return ":/AppRes/Resources/music-stream-player.svg";
-	case eMyIconRemoteControl:
-		return ":/AppRes/Resources/remote-control.svg";
-	case eMyIconPlugins:
-		return ":/AppRes/Resources/plugin.svg";
 	case eMyIconTheme:
 		return ":/AppRes/Resources/theme.svg";
 	case eMyIconSettingsGear:
@@ -693,8 +516,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
         return ":/AppRes/Resources/service-connection-test.svg";
     case eMyIconServiceHostGroup:
         return ":/AppRes/Resources/service-group-host.svg";
-    case eMyIconServiceHostGroupListing:
-        return ":/AppRes/Resources/service-group-listing-host.svg";
     case eMyIconServiceHostNetwork:
         return ":/AppRes/Resources/service-network-host.svg";
     case eMyIconServiceShareAboutMe:
@@ -718,8 +539,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
         return ":/AppRes/Resources/service-connection-test-settings.svg";
     case eMyIconSettingsHostGroup:
         return ":/AppRes/Resources/service-group-host-settings.svg";
-    case eMyIconSettingsHostGroupListing:
-        return ":/AppRes/Resources/service-group-listing-host-settings.svg";
     case eMyIconSettingsHostNetwork:
         return ":/AppRes/Resources/service-network-host-settings.svg";
 	case eMyIconSettingsSendFile:
@@ -734,8 +553,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
         return ":/AppRes/Resources/service-connect-random-settings.svg";
     case eMyIconSettingsRandomConnectRelay:
         return ":/AppRes/Resources/service-connect-random-relay-settings.svg";
-    case eMyIconSettingsRelay:
-        return ":/AppRes/Resources/service-relay-settings.svg";
     case eMyIconSettingsFileXfer:
         return ":/AppRes/Resources/file-xfer-settings.svg";
     case eMyIconSettingsMessenger:
@@ -748,10 +565,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
         return ":/AppRes/Resources/voice-phone-settings.svg";
 	case eMyIconSettingsPushToTalk:
 		return ":/AppRes/Resources/push-to-talk-settings.svg";
-    case eMyIconFileXfer:
-        return ":/AppRes/Resources/file-xfer.svg";
-    case eMyIconTruthOrDare:
-        return ":/AppRes/Resources/truth-or-dare.svg";
 
     case eMyIconEditRedo:
         return ":/AppRes/Resources/edit-action-redo.svg";
@@ -777,12 +590,8 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
         return ":/AppRes/Resources/edit-field.svg";
     case eMyIconEditFileNew:
         return ":/AppRes/Resources/edit-file-new.svg";
-    case eMyIconEditHeader:
-        return ":/AppRes/Resources/edit-print.svg";
     case eMyIconEditItalic:
         return ":/AppRes/Resources/edit-italic.svg";
-    case eMyIconEditPaperClip:
-        return ":/AppRes/Resources/edit-paperclip.svg";
     case eMyIconEditPaste:
         return ":/AppRes/Resources/edit-paste.svg";
     case eMyIconEditPrint:
@@ -801,15 +610,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
     case eMyIconFileSaveAs:
         return ":/AppRes/Resources/file-save-as.svg";
 
-    case eMyIconZoomIn:
-        return ":/AppRes/Resources/zoom-in.svg";
-    case eMyIconZoomOut:
-        return ":/AppRes/Resources/zoom-out.svg";
-
-    case eMyIconOfferFile:
-        return ":/AppRes/Resources/offer-file.svg";
-    case eMyIconOfferFriendship:
-        return ":/AppRes/Resources/offer-friendship.svg";
 	case eMyIconOfferHistory:
 		return ":/AppRes/Resources/offer-history.svg";
     case eMyIconOfferList:
@@ -841,8 +641,6 @@ QString MyIcons::getIconFile( enum EMyIcons eMyIcon )
 		return ":/AppRes/Resources/invite-accept.svg";
 	case eMyIconInviteCreate:
 		return ":/AppRes/Resources/invite-create.svg";
-	case eMyIconArrowUpRight:
-		return ":/AppRes/Resources/arrow-up-right.svg";
 
 	case eMyIconBoot:
 		return ":/AppRes/Resources/boot.svg";

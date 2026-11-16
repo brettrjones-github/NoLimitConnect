@@ -10,7 +10,6 @@
 
 #include "AppletUserIdentity.h"
 
-#include "AppletCreateAccount.h"
 #include "AppletMgr.h"
 
 #include "AppletEditAvatarImage.h"
@@ -58,18 +57,8 @@ AppletUserIdentity::AppletUserIdentity( AppCommon& app, QWidget* parent )
     GuiHelpers::fillAge( ui.m_AgeComboBox );
 
     VxNetIdent* curIdent = m_MyApp.getAppGlobals().getMyNetIdent();
-    m_strOrigOnlineName = curIdent->getOnlineName();
     m_strOrigMoodMessage = curIdent->getOnlineDescription();
-
-    m_MyApp.getAccountMgr().getAllAccounts( m_AccountList );
-    for( VxNetIdent& ident : m_AccountList )
-    {
-        ui.m_AccountComboBox->addItem( ident.getOnlineName() );
-        if( m_strOrigOnlineName != ident.getOnlineName() )
-        {
-            ui.m_AccountListWidget->addItem( ident.getOnlineName() );
-        }
-    }
+    ui.m_UserNameValueLabel->setText( curIdent->getOnlineName() );
 
     GuiHelpers::setValuesFromIdentity( this, curIdent, ui.m_AgeComboBox, ui.m_GenderComboBox, ui.m_LanguageComboBox, ui.m_ContentComboBox );
 
@@ -84,75 +73,9 @@ AppletUserIdentity::AppletUserIdentity( AppCommon& app, QWidget* parent )
     connect( ui.m_EditStoryboardButton, SIGNAL(clicked()), this, SLOT(slotEditStoryboardButClick() ) );
     connect( ui.m_ViewStoryboardButton, SIGNAL(clicked()), this, SLOT(slotViewStoryboardButClick() ) );
 
-    connect( ui.m_CreateNewAccountButton, SIGNAL(clicked()), this, SLOT(slotCreateNewAccount() ) );
-    connect( ui.m_DeleteAccountButton, SIGNAL(clicked()), this, SLOT(slotDeleteAccount() ) );
-
-    connect( ui.m_AccountComboBox, SIGNAL( currentIndexChanged( int ) ), this, SLOT(slotAccountSelectionChanged( int ) ) );
-
-    resetComboIdxToOriginalAccount();
-
     loadIdentity( *curIdent );
 
 	m_MyApp.activityStateChange( this, true );
-}
-
-//============================================================================
-void AppletUserIdentity::resetComboIdxToOriginalAccount()
-{
-    int identIdx = 0;
-    for( VxNetIdent& ident : m_AccountList )
-    {
-        if( m_strOrigOnlineName == ident.getOnlineName() )
-        {
-            ui.m_AccountComboBox->setCurrentIndex( identIdx );
-            break;
-        }
-
-        identIdx++;
-    }
-}
-
-//============================================================================
-void AppletUserIdentity::slotAccountSelectionChanged( int idx )
-{
-    if( ( ui.m_AccountComboBox->currentIndex() >= 0 ) && ( ui.m_AccountComboBox->currentIndex() < (int)m_AccountList.size() ) )
-    {
-        VxNetIdent& netIdent = m_AccountList[ ui.m_AccountComboBox->currentIndex() ];
-        LogMsg( LOG_DEBUG, "AppletUserIdentity selected account %s", netIdent.getOnlineName() );
-        updateAvatarImage( netIdent.getAvatarThumbGuid(), netIdent.getAvatarThumbModifiedTime() );
-        if( netIdent.getOnlineName() != m_strOrigOnlineName )
-        {
-            QString title = QObject::tr( "Confirm Login To Account" );
-            QString msgText = QObject::tr( "Are You Sure You Want To Login To Account " );
-            msgText += netIdent.getOnlineName();
-            msgText += QObject::tr( "?" );
-
-            if( QMessageBox::Yes == QMessageBox::question( this, title, msgText, QMessageBox::Yes | QMessageBox::No ) )
-            {
-                // copy ident to global
-                VxNetIdent* myIdent = m_MyApp.getAppGlobals().getMyNetIdent();
-                if( myIdent )
-                {
-                    memcpy( myIdent, &netIdent, sizeof( VxNetIdent ) );
-                    m_MyApp.getAccountMgr().updateLastLogin( myIdent->getOnlineName() );
-                    m_MyApp.setupAccountResources( *myIdent );
-                    m_MyApp.loadAccountSpecificSettings( myIdent->getOnlineName() );
-                    m_Engine.fromGuiUserLoggedOn( myIdent );  
-                    loadIdentity( *myIdent );
-                }
-                else
-                {
-                    LogMsg( LOG_SEVERE, "ERROR AppletUserIdentity could not get global identity" );
-                }
-
-                closeApplet();
-            }
-            else
-            {
-                resetComboIdxToOriginalAccount();
-            }
-        }
-    }
 }
 
 //============================================================================
@@ -183,55 +106,12 @@ void AppletUserIdentity::onApplyMoodMsgClick( void )
 
     if( moodMsg != m_strOrigMoodMessage )
     {
-        if( ( ui.m_AccountComboBox->currentIndex() >= 0 ) && ( ui.m_AccountComboBox->currentIndex() < (int)m_AccountList.size() ) )
-        {
-            VxNetIdent& ident = m_AccountList[ ui.m_AccountComboBox->currentIndex() ];
-            std::string strOnlineDesc = moodMsg.toUtf8().constData();
-            ident.setOnlineDescription( strOnlineDesc.c_str() );
-            m_MyApp.getAccountMgr().updateAccount( ident );
-            if( m_strOrigOnlineName == ident.getOnlineName() )
-            {
-                m_Engine.fromGuiMoodMessageChanged( strOnlineDesc.c_str() );
-            }
-
-            QString msgText = QObject::tr( "Applied Mood Message Change " );
-            QMessageBox::information( this, QObject::tr( "Mood Message Change Success" ), msgText );
-        }
-    }
-}
-
-//============================================================================
-void AppletUserIdentity::onApplyAgeClick( void )
-{
-    if( ( ui.m_AccountComboBox->currentIndex() >= 0 ) && ( ui.m_AccountComboBox->currentIndex() < (int)m_AccountList.size() ) )
-    {
-        VxNetIdent& ident = m_AccountList[ ui.m_AccountComboBox->currentIndex() ];
-        GuiHelpers::setIdentityFromValues( this, &ident, ui.m_AgeComboBox, ui.m_GenderComboBox, ui.m_LanguageComboBox, ui.m_ContentComboBox );
-
-        m_MyApp.getAccountMgr().updateAccount( ident );
-        if( m_strOrigOnlineName == ident.getOnlineName() )
-        {
-            m_Engine.fromGuiIdentPersonalInfoChanged( ident.getAgeType(), ident.getGender(), ident.getPrimaryLanguage(), ident.getPreferredContent() );
-        }
-
-        QString msgText = QObject::tr( "Applied Age and Preferred Content Change " );
-        QMessageBox::information( this, QObject::tr( "Age and Preferred Content Success" ), msgText );
-    }
-}
-
-//============================================================================
-void AppletUserIdentity::onApplyContentClick( void )
-{
-    if( ( ui.m_AccountComboBox->currentIndex() >= 0 ) && ( ui.m_AccountComboBox->currentIndex() < (int)m_AccountList.size() ) )
-    {
-        VxNetIdent& ident = m_AccountList[ ui.m_AccountComboBox->currentIndex() ];
-        GuiHelpers::setIdentityFromValues( this, &ident, ui.m_AgeComboBox, ui.m_GenderComboBox, ui.m_LanguageComboBox, ui.m_ContentComboBox );
-
-        m_MyApp.getAccountMgr().updateAccount( ident );
-        if( m_strOrigOnlineName == ident.getOnlineName() )
-        {
-            m_Engine.fromGuiIdentPersonalInfoChanged( ident.getAgeType(), ident.getGender(), ident.getPrimaryLanguage(), ident.getPreferredContent() );
-        }
+        VxNetIdent* myIdent = m_MyApp.getAppGlobals().getMyNetIdent();
+        std::string strOnlineDesc = moodMsg.toUtf8().constData();
+        myIdent->setOnlineDescription( strOnlineDesc.c_str() );
+        m_MyApp.getAccountMgr().updateAccount( *myIdent );
+        m_Engine.fromGuiMoodMessageChanged( strOnlineDesc.c_str() );
+        m_strOrigMoodMessage = moodMsg;
 
         QString msgText = QObject::tr( "Applied Mood Message Change " );
         QMessageBox::information( this, QObject::tr( "Mood Message Change Success" ), msgText );
@@ -239,22 +119,33 @@ void AppletUserIdentity::onApplyContentClick( void )
 }
 
 //============================================================================
+void AppletUserIdentity::applyPersonalInfoChange( const QString& successTitle, const QString& successMsg )
+{
+    VxNetIdent* myIdent = m_MyApp.getAppGlobals().getMyNetIdent();
+    GuiHelpers::setIdentityFromValues( this, myIdent, ui.m_AgeComboBox, ui.m_GenderComboBox, ui.m_LanguageComboBox, ui.m_ContentComboBox );
+
+    m_MyApp.getAccountMgr().updateAccount( *myIdent );
+    m_Engine.fromGuiIdentPersonalInfoChanged( myIdent->getAgeType(), myIdent->getGender(), myIdent->getPrimaryLanguage(), myIdent->getPreferredContent() );
+
+    QMessageBox::information( this, successTitle, successMsg );
+}
+
+//============================================================================
+void AppletUserIdentity::onApplyAgeClick( void )
+{
+    applyPersonalInfoChange( QObject::tr( "Age and Preferred Content Success" ), QObject::tr( "Applied Age and Preferred Content Change " ) );
+}
+
+//============================================================================
+void AppletUserIdentity::onApplyContentClick( void )
+{
+    applyPersonalInfoChange( QObject::tr( "Age and Preferred Content Success" ), QObject::tr( "Applied Age and Preferred Content Change " ) );
+}
+
+//============================================================================
 void AppletUserIdentity::onApplyGenderClick( void )
 {
-    if( ( ui.m_GenderComboBox->currentIndex() >= 0 ) && ( ui.m_GenderComboBox->currentIndex() < (int)m_AccountList.size() ) )
-    {
-        VxNetIdent& ident = m_AccountList[ ui.m_GenderComboBox->currentIndex() ];
-        GuiHelpers::setIdentityFromValues( this, &ident, ui.m_AgeComboBox, ui.m_GenderComboBox, ui.m_LanguageComboBox, ui.m_ContentComboBox );
-
-        m_MyApp.getAccountMgr().updateAccount( ident );
-        if( m_strOrigOnlineName == ident.getOnlineName() )
-        {
-            m_Engine.fromGuiIdentPersonalInfoChanged( ident.getAgeType(), ident.getGender(), ident.getPrimaryLanguage(), ident.getPreferredContent() );
-        }
-
-        QString msgText = QObject::tr( "Applied Gender Change " );
-        QMessageBox::information( this, QObject::tr( "Gender Change Success" ), msgText );
-    }
+    applyPersonalInfoChange( QObject::tr( "Gender Change Success" ), QObject::tr( "Applied Gender Change " ) );
 }
 
 //============================================================================
@@ -290,65 +181,6 @@ void AppletUserIdentity::slotEditStoryboardButClick( void )
 void AppletUserIdentity::slotViewStoryboardButClick( void )
 {
     m_MyApp.getAppletMgr().launchApplet( eAppletStoryboardServerViewMine, this );
-}
-
-//============================================================================   
-void AppletUserIdentity::slotCreateNewAccount( void )
-{
-    QString title = QObject::tr( "Confirm Create New Account" );
-    QString msgText = QObject::tr( "Are You Sure You Want To Create A New Account?" );
-
-    if( QMessageBox::Yes == QMessageBox::question( this, title, msgText, QMessageBox::Yes | QMessageBox::No ) )
-    {
-        AppletCreateAccount * createAccountActivity = new AppletCreateAccount( m_MyApp, &m_MyApp.getHomeWindow() );
-        createAccountActivity->show();
-        closeApplet();
-    }
-}
-
-//============================================================================  
-void AppletUserIdentity::slotDeleteAccount( void )
-{
-    if( ( m_AccountList.size() > 1 ) && ui.m_AccountListWidget->currentItem() )
-    {
-        const QString& accountName = ui.m_AccountListWidget->currentItem()->text();
-        if( !accountName.isEmpty() )
-        {
-            if( accountName == m_strOrigOnlineName )
-            {
-                QString title = QObject::tr( "Cannot Delete Account" );
-                QString msgText = QObject::tr( "Cannot Delete An Account That Is In Use" );
-                QMessageBox::information( this, title, msgText, QMessageBox::Ok );
-            }
-            else
-            {
-                QString title = QObject::tr( "Confirm Delete Account" );
-                QString msgText = QObject::tr( "Are You Sure You Want To Delete This Account?" );
-
-                if( QMessageBox::Yes == QMessageBox::question( this, title, msgText, QMessageBox::Yes | QMessageBox::No ) )
-                {
-                    if( m_MyApp.getAccountMgr().removeAccountByName( accountName.toUtf8().constData() ) )
-                    {
-                        QString title = QObject::tr( "Account was removed" );
-                        QString msgText = QObject::tr( "Account was removed" );
-                        QMessageBox::information( this, title, msgText, QMessageBox::Ok );
-                    }
-                    else
-                    {
-                        QString title = QObject::tr( "A error occured and account was not removed" );
-                        QString msgText = QObject::tr( "A error occured and account was not removed" );
-                        QMessageBox::information( this, title, msgText, QMessageBox::Ok );
-                    }
-                }
-            }
-        }
-    }
-    else
-    {
-        QString title = QObject::tr( "Connot delete the last account" );
-        QString msgText = QObject::tr( "Connot delete the last account" );
-        QMessageBox::information( this, title, msgText, QMessageBox::Ok );
-    }
 }
 
 //============================================================================

@@ -47,7 +47,9 @@
 //#endif // TARGET_OS_WINDOWS
 
 
-#ifdef _SECURE_SCL
+// stdext::checked_array_iterator was deprecated and then removed from the MSVC STL
+// (gone in Visual Studio 2026), so never use it. It was only there to silence MSVC warnings.
+#if 0 && defined(_SECURE_SCL)
 # define FMT_SECURE_SCL _SECURE_SCL
 #else
 # define FMT_SECURE_SCL 0

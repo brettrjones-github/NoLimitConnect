@@ -55,7 +55,6 @@ add_subdirectory(VxVideoLib)
 
 #add_subdirectory(flatbuffers) # not used directly but headers are used
 
-add_subdirectory(libasprintf)
 add_subdirectory(libass)
 
 add_subdirectory(libcrossguid)
@@ -64,7 +63,6 @@ add_subdirectory(libdav1d)
 add_subdirectory(libfreetype)
 add_subdirectory(libfribidi)
 
-add_subdirectory(libgnu)
 add_subdirectory(libiconv)
 
 if(USE_LIBJPEG_TURBO)

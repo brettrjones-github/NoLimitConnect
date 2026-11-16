@@ -1,76 +1,42 @@
 <RCC>
     <qresource prefix="/AppRes">
-        <file>Resources/arrow-down.svg</file>
         <file>Resources/arrow-left.svg</file>
-        <file>Resources/arrow-right.svg</file>
-        <file>Resources/arrow-up.svg</file>
-        <file>Resources/bell.svg</file>
         <file>Resources/camera.svg</file>
         <file>Resources/check-mark.svg</file>
-        <file>Resources/cloud-check.svg</file>
         <file>Resources/cloud-download.svg</file>
         <file>Resources/cloud-upload.svg</file>
-        <file>Resources/earth-globe.svg</file>
         <file>Resources/file-folder-normal.svg</file>
-        <file>Resources/file-folder-plus.svg</file>
-        <file>Resources/file-picture.svg</file>
         <file>Resources/file-save.svg</file>
-        <file>Resources/file-video.svg</file>
         <file>Resources/file-zip.svg</file>
         <file>Resources/home.svg</file>
         <file>Resources/info.svg</file>
         <file>Resources/key.svg</file>
-        <file>Resources/keyboard.svg</file>
         <file>Resources/library.svg</file>
         <file>Resources/lock.svg</file>
         <file>Resources/man.svg</file>
-        <file>Resources/mediacontrol-back-thirty.svg</file>
-        <file>Resources/mediacontrol-forward-thirty.svg</file>
         <file>Resources/mediacontrol-pause.svg</file>
-        <file>Resources/mediacontrol-play.svg</file>
-        <file>Resources/mediacontrol-repeat.svg</file>
         <file>Resources/mediatype-audio.svg</file>
         <file>Resources/mediatype-image.svg</file>
         <file>Resources/mediatype-text.svg</file>
         <file>Resources/mediatype-video.svg</file>
-        <file>Resources/menu.svg</file>
         <file>Resources/microphone.svg</file>
         <file>Resources/phone.svg</file>
         <file>Resources/power_button.svg</file>
         <file>Resources/radio-tower.svg</file>
-        <file>Resources/redo.svg</file>
         <file>Resources/refresh.svg</file>
-        <file>Resources/sd_card.svg</file>
         <file>Resources/search-normal.svg</file>
         <file>Resources/send.svg</file>
         <file>Resources/settings-gear.svg</file>
-        <file>Resources/share.svg</file>
-        <file>Resources/smartphone.svg</file>
         <file>Resources/speech-bubble.svg</file>
         <file>Resources/spinner-clockwise.svg</file>
-        <file>Resources/spinner-counterclockwise.svg</file>
-        <file>Resources/star-empty.svg</file>
-        <file>Resources/star-full.svg</file>
-        <file>Resources/star-half-full.svg</file>
-        <file>Resources/thumbs-down.svg</file>
-        <file>Resources/thumbs-up.svg</file>
         <file>Resources/undo.svg</file>
-        <file>Resources/unlocked.svg</file>
         <file>Resources/user-tie.svg</file>
-        <file>Resources/volume-muted.svg</file>
-        <file>Resources/volume-normal.svg</file>
-        <file>Resources/x-mark.svg</file>
         <file>Resources/x-overlay.svg</file>
-        <file>Resources/arrow-thick-thin-down.svg</file>
-        <file>Resources/arrow-thick-thin-up.svg</file>
         <file>Resources/bug.svg</file>
-        <file>Resources/camera-flash.svg</file>
-        <file>Resources/camera-snapshot.svg</file>
         <file>Resources/cam-preview.svg</file>
         <file>Resources/cam-rotate.svg</file>
         <file>Resources/cam-select.svg</file>
         <file>Resources/cam-setup.svg</file>
-        <file>Resources/dice.svg</file>
         <file>Resources/emoj01.svg</file>
         <file>Resources/emoj02.svg</file>
         <file>Resources/emoj03.svg</file>
@@ -120,13 +86,9 @@
         <file>Resources/emoj48.svg</file>
         <file>Resources/emoj49.svg</file>
         <file>Resources/emoj50.svg</file>
-        <file>Resources/file-audio.svg</file>
         <file>Resources/file-folder-cancel.svg</file>
-        <file>Resources/file-folder-locked.svg</file>
-        <file>Resources/file-folder-minus.svg</file>
         <file>Resources/file-folder-search.svg</file>
         <file>Resources/file-folder-share.svg</file>
-        <file>Resources/file-text.svg</file>
         <file>Resources/image-rotate.svg</file>
         <file>Resources/magnifier-on-a-user.svg</file>
         <file>Resources/menu_more_horiz.svg</file>
@@ -136,17 +98,12 @@
         <file>Resources/msg_state_fail_resend.png</file>
         <file>Resources/notepad.svg</file>
         <file>Resources/play.svg</file>
-        <file>Resources/plugin.svg</file>
-        <file>Resources/remote-control.svg</file>
         <file>Resources/speaker-muted.svg</file>
         <file>Resources/speakers-on.svg</file>
-        <file>Resources/speech-bubble-disabled.svg</file>
         <file>Resources/storyboard.svg</file>
         <file>Resources/trash.svg</file>
         <file>Resources/unknown-person.svg</file>
         <file>Resources/webcam.svg</file>
-        <file>Resources/videocam-disabled.svg</file>
-        <file>Resources/videocam-enabled.svg</file>
         <file>Resources/videocam-record.svg</file>
         <file>Resources/video-motion-record.svg</file>
         <file>Resources/forbidden.svg</file>
@@ -154,15 +111,9 @@
         <file>Resources/notify-dot.svg</file>
         <file>Resources/file-folder-up-directory.svg</file>
         <file>Resources/image-gallery.svg</file>
-        <file>Resources/pause.svg</file>
         <file>Resources/theme.svg</file>
         <file>Resources/friend.svg</file>
-        <file>Resources/overlay-friend.svg</file>
         <file>Resources/overlay-globe.svg</file>
-        <file>Resources/overlay-minus.svg</file>
-        <file>Resources/overlay-plus.svg</file>
-        <file>Resources/video-stream-viewer.svg</file>
-        <file>Resources/music-stream-player.svg</file>
         <file>Resources/window-expand.svg</file>
         <file>Resources/window-shrink.svg</file>
         <file>Resources/ic_cam_black.png</file>
@@ -177,7 +128,6 @@
         <file>Resources/snd_beep_spring.wav</file>
         <file>Resources/snd_bike_bell.wav</file>
         <file>Resources/snd_busy_phone_signal.wav</file>
-        <file>Resources/snd_button_click1.wav</file>
         <file>Resources/snd_byebye.wav</file>
         <file>Resources/snd_camera_snapshot.wav</file>
         <file>Resources/snd_cancel1.wav</file>
@@ -185,7 +135,6 @@
         <file>Resources/snd_choice2.wav</file>
         <file>Resources/snd_file_xfer_complete.wav</file>
         <file>Resources/snd_joshua_no.wav</file>
-        <file>Resources/snd_keyclick.wav</file>
         <file>Resources/snd_keyclick2.wav</file>
         <file>Resources/snd_microwave_beep.wav</file>
         <file>Resources/snd_morse_code.wav</file>
@@ -202,7 +151,6 @@
         <file>Resources/NetworkDesign.png</file>
         <file>Resources/wireless-key.svg</file>
         <file>Resources/wireless-setup.svg</file>
-        <file>Resources/key-disabled.svg</file>
         <file>Resources/key-enabled.svg</file>
         <file>Resources/share-services.svg</file>
         <file>Resources/search-random-person.svg</file>
@@ -211,34 +159,26 @@
         <file>Resources/search-webcam.svg</file>
         <file>Resources/search-storyboard.svg</file>
         <file>Resources/share-about-me.svg</file>
-        <file>Resources/share-relay.svg</file>
         <file>Resources/share-storyboard.svg</file>
         <file>Resources/share-webcam.svg</file>
         <file>Resources/share-files.svg</file>
         <file>Resources/service-connection-test.svg</file>
         <file>Resources/service-connect-random.svg</file>
-        <file>Resources/service-relay.svg</file>
         <file>Resources/avatar.svg</file>
         <file>Resources/share-avatar.svg</file>
-        <file>Resources/share-with-person.svg</file>
         <file>Resources/service-connection-test-settings.svg</file>
         <file>Resources/service-connect-random-relay-settings.svg</file>
         <file>Resources/service-connect-random-settings.svg</file>
         <file>Resources/service-group-host.svg</file>
         <file>Resources/service-group-host-settings.svg</file>
-        <file>Resources/service-group-listing-host.svg</file>
-        <file>Resources/service-group-listing-host-settings.svg</file>
         <file>Resources/service-network-host.svg</file>
         <file>Resources/service-network-host-settings.svg</file>
-        <file>Resources/service-relay-settings.svg</file>
         <file>Resources/share-about-me-settings.svg</file>
         <file>Resources/share-avatar-settings.svg</file>
         <file>Resources/share-files-settings.svg</file>
         <file>Resources/share-storyboard-settings.svg</file>
         <file>Resources/share-webcam-settings.svg</file>
-        <file>Resources/avatar.png</file>
         <file>Resources/voice-phone-settings.svg</file>
-        <file>Resources/file-xfer.svg</file>
         <file>Resources/file-xfer-settings.svg</file>
         <file>Resources/messenger-settings.svg</file>
         <file>Resources/truth-or-dare.svg</file>
@@ -246,7 +186,6 @@
         <file>Resources/service-chat-room.svg</file>
         <file>Resources/service-chat-room-settings.svg</file>
         <file>Resources/client-chat-room.svg</file>
-        <file>Resources/client-chat-room-settings.svg</file>
         <file>Resources/client-webcam.svg</file>
         <file>Resources/video-chat-settings.svg</file>
         <file>Resources/search-chat-room.svg</file>
@@ -261,20 +200,15 @@
         <file>Resources/edit-copy.svg</file>
         <file>Resources/edit-cut.svg</file>
         <file>Resources/edit-file-new.svg</file>
-        <file>Resources/edit-header.svg</file>
         <file>Resources/edit-italic.svg</file>
-        <file>Resources/edit-paperclip.svg</file>
         <file>Resources/edit-paste.svg</file>
         <file>Resources/edit-print.svg</file>
         <file>Resources/edit-text.svg</file>
         <file>Resources/edit-underline.svg</file>
         <file>Resources/file-open.svg</file>
         <file>Resources/file-save-as.svg</file>
-        <file>Resources/zoom-in.svg</file>
-        <file>Resources/zoom-out.svg</file>
         <file>Resources/cancel.svg</file>
         <file>Resources/webcam-stop.svg</file>
-        <file>Resources/log.svg</file>
         <file>Resources/search-random-connect.svg</file>
         <file>Resources/eye-hide.svg</file>
         <file>Resources/eye-show.svg</file>
@@ -293,8 +227,6 @@
         <file>Resources/bars_7_hosted_with_relay.png</file>
         <file>Resources/client-random-connect.svg</file>
         <file>Resources/eye-friends.svg</file>
-        <file>Resources/offer-file.svg</file>
-        <file>Resources/offer-friendship.svg</file>
         <file>Resources/offer-video-chat.svg</file>
         <file>Resources/offer-voice-phone.svg</file>
         <file>Resources/notify-offer.svg</file>
@@ -310,14 +242,11 @@
         <file>Resources/persons-offer-list.svg</file>
         <file>Resources/connect.svg</file>
         <file>Resources/disconnect.svg</file>
-        <file>Resources/notify-offline.svg</file>
         <file>Resources/emoticon-smile.svg</file>
         <file>Resources/emoj16.svg</file>
-        <file>Resources/arrow-up-right.svg</file>
         <file>Resources/invite-accept.svg</file>
         <file>Resources/invite-create.svg</file>
         <file>Resources/notify-in-group.svg</file>
-        <file>Resources/friend-broadcast.svg</file>
         <file>Resources/overlay-direct-connected.svg</file>
         <file>Resources/boot.svg</file>
         <file>Resources/group-info.svg</file>
@@ -344,8 +273,6 @@
         <file>Resources/overlay-eye.svg</file>
         <file>Resources/offer-history.svg</file>
         <file>Resources/user-preferences.svg</file>
-        <file>Resources/eye-search-disabled.svg</file>
-        <file>Resources/eye-search-enabled.svg</file>
         <file>Resources/shredding-icon.svg</file>
         <file>Resources/eye-announced-random-connect.svg</file>
         <file>Resources/eye-announced-chat-rooms.svg</file>

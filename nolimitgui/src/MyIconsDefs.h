@@ -19,7 +19,6 @@ enum EMyIcons
 	
     eMyIconNotifyJoinOverlay,		// joined overlay
     eMyIconNotifyOnlineOverlay,		// online dot
-	eMyIconNotifyOfflineOverlay,	// offline dot
 	eMyIconNotifyDirectConnectOverlay, // direct connect overlay
 	eMyIconNotifyInGroupOverlay,	// in group overlay
     eMyIconNotifyOfferOverlay,		// hand offer overlay
@@ -27,9 +26,6 @@ enum EMyIcons
 	eMyIconNotifyAdminOverlay,		// is host administrator
 
 	eMyIconEyeOverlay,				// eye overlay
-	eMyIconPlusOverlay,				// add to shared or library icon overlay
-	eMyIconMinusOverlay,			// remove from shared or library
-	eMyIconFriendOverlay,			// is friend
 	eMyIconGlobeOverlay,			// is random connect person globe in upper left
 	eMyIconNlcFavoriteOverlay,		// nlc preferred host or user overlay
 
@@ -37,7 +33,6 @@ enum EMyIcons
     eMyIconInformation,
 	eMyIconInfoOffer,
     eMyIconPeople,
-	eMyIconServers,
     eMyIconSettingsGear,
 	eMyIconFileServer,
 
@@ -50,8 +45,6 @@ enum EMyIcons
     eMyIconEyeGroup,
     eMyIconEyeHide,
     eMyIconEyeRandomConnect,
-	eMyIconEyeSearchDisabled,
-	eMyIconEyeSearchEnabled,
     eMyIconEyeShow,
 
     eMyIconSearch,
@@ -65,7 +58,6 @@ enum EMyIcons
     eMyIconSearchStoryboard,
     eMyIconSearchFolder,
 
-    eMyIconShareWithPerson,
 
 	eMyIconAdministrator,
 	eMyIconFriend,
@@ -73,7 +65,6 @@ enum EMyIcons
 	eMyIconAnonymous,
 	eMyIconIgnored,
 
-	eMyIconFriendBroadcast,
 	eMyIconFriendJoined,
 
     eMyIconChatRoomClient,
@@ -86,7 +77,6 @@ enum EMyIcons
 	eMyIconProfileDisabled,
 	eMyIconProfileIgnored,
 
-	eMyIconWebCamServer,
 	eMyIconWebCamServerLocked,
 	eMyIconWebCamServerDisabled,
 	eMyIconWebCamServerIgnored,
@@ -97,7 +87,6 @@ enum EMyIcons
 	eMyIconMultiSessionLocked,
 	eMyIconMultiSessionDisabled,
 	eMyIconMultiSessionIgnored,
-	eMyIconMultiSessionCancel,
 
 	eMyIconVoicePhoneCancel,
 	eMyIconVoicePhoneNormal,
@@ -105,7 +94,6 @@ enum EMyIcons
 	eMyIconVoicePhoneLocked,
 	eMyIconVoicePhoneIgnored,
 
-	eMyIconPushToTalkCancel,
 	eMyIconPushToTalkOff,
 	eMyIconPushToTalkOn,
 	eMyIconPushToTalkDisabled,
@@ -126,7 +114,6 @@ enum EMyIcons
 
 	eMyIconPermissions,
     eMyIconKeyEnabled,
-    eMyIconKeyDisabled,
 
 	eMyIconNotifyStarWhite,
 	eMyIconNotifyStarGreen,
@@ -140,11 +127,6 @@ enum EMyIcons
 	eMyIconArcOrIso,
 	eMyIconOther,
 
-	eMyIconUpOneDirectory,
-	eMyIconFileUpload,
-	eMyIconFileDownload,
-	eMyIconFileAdd,
-	eMyIconFileRemove,
 
 	eMyIconStoryBoardNormal,
 	eMyIconStoryBoardDisabled,
@@ -154,21 +136,15 @@ enum EMyIcons
 	eMyIconMicrophoneOff,
 	eMyIconMicrophoneOn,
 
-	eMyIconMicrophoneCancelDisabled,
-	eMyIconMicrophoneCancelNormal,
 
 	eMyIconDebug,
-	eMyIconFileShareOptions,
-	eMyIconFileShareAddRemove,
 
 	eMyIconShareFilesDisabled,
 	eMyIconShareFilesNormal,
 	eMyIconShareFilesCancel,
 
-	eMyIconPauseDisabled,
 	eMyIconPauseNormal,
 
-	eMyIconPlayDisabled,
 	eMyIconPlayNormal,
 
 	eMyIconRejectRedX,
@@ -179,7 +155,6 @@ enum EMyIcons
 
 	eMyIconShredderNormal,
 
-	eMyIconFileDownloadDisabled,
 	eMyIconFileDownloadCancel,
 	eMyIconFileDownloadNormal,
 
@@ -189,139 +164,82 @@ enum EMyIcons
 	eMyIconSendFileLocked,
 	eMyIconSendFileIgnored,
 
-	eMyIconRecordMovieDisabled,
 	eMyIconRecordMovieNormal,
 
-	eMyIconRecordMotionDisabled,
-	eMyIconRecordMotionCancel,
 	eMyIconRecordMotionNormal,
 
-	eMyIconMotionAlarmDisabled,
-	eMyIconMotionAlarmCancel,
 	eMyIconMotionAlarmRed,
 	eMyIconMotionAlarmWhite,
-	eMyIconMotionAlarmYellow,
 
 	eMyIconAcceptNormal,
 	eMyIconAcceptDisabled,
 	eMyIconCancelNormal,
-	eMyIconCancelDisabled,
 
 	eMyIconSendArrowNormal,
 	eMyIconSendArrowCancel,
 
-	eMyIconCameraDisabled,
 	eMyIconCameraNormal,
 	eMyIconCameraCancel,
 
 	eMyIconCamcorderNormal,
-	eMyIconCamcorderDisabled,
 	eMyIconCamcorderCancel,
 
-	eMyIconSelectCameraDisabled,
 	eMyIconSelectCameraNormal,
 
 	eMyIconSpeakerOn,
 	eMyIconSpeakerOff,
 
-	eMyIconCameraFlashDisabled,
-	eMyIconCameraFlashNormal,
-	eMyIconCameraFlashCancelNormal,
 
-	eMyIconSnapshotDisabled,
-	eMyIconSnapshotNormal,
-	eMyIconSnapshotCancelNormal,
 
-	eMyIconNotepadDisabled,
 	eMyIconNotepadNormal,
 
-	eMyIconGalleryDisabled,
 	eMyIconGalleryNormal,
-	eMyIconGalleryCancel,
 
-	eMyIconEmoticonSmile,
 
-	eMyIconFaceSelectDisabled,
 	eMyIconFaceSelectNormal,
-	eMyIconFaceCancelNormal,
 
 	eMyIconCamPreviewNormal,
-	eMyIconCamPreviewDisabled,
 	eMyIconCamPreviewCancelNormal,
-	eMyIconCamPreviewCancelDisabled,
 
 	eMyIconCamRotateNormal,
-	eMyIconCamRotateDisabled,
 	eMyIconCamSetupNormal,
-	eMyIconCamSetupDisabled,
-	eMyIconCamSetupCancelNormal,
-	eMyIconCamSetupCancelDisabled,
 	eMyIconCamSelectNormal,
-	eMyIconCamSelectDisabled,
 
 	eMyIconImageRotateNormal,
-	eMyIconImageRotateDisabled,
 
 	eMyIconFileBrowseNormal,
-	eMyIconFileBrowseDisabled,
-	eMyIconFileBrowseCancel,
 
 	eMyIconMoveUpDirNormal,
-	eMyIconMoveUpDirDisabled,
-	eMyIconMoveUpDirCancel,
 
-	eMyIconLibraryDisabled,
 	eMyIconLibraryNormal,
 	eMyIconLibraryCancel,
 
-	eMyIconEchoCancelNormal,
-	eMyIconEchoCancelCancel,
-	eMyIconSendFailed,
-	eMyIconPersonUnknownNormal,
 
 	eMyIconMenuNormal,
 	eMyIconMenuDisabled,
 
-	eMyIconAdministratorDisabled,
 
-	eMyIconNetworkStateDiscover,
-	eMyIconNetworkStateDisconnected,
-	eMyIconNetworkStateDirectConnected,
-	eMyIconNetworkStateHostFail,
-	eMyIconNetworkStateRelayConnected,
 
 
 	//=== title bar icons ===//
 	eMyIconPowerOff,
 	eMyIconHome,
-	eMyIconShare,
 	eMyIconMenu,
 	eMyIconBack,
 
 	//=== bottom bar icons ===//
 	eMyIconMediaStop,
 	eMyIconArrowLeft,
-	eMyIcon30SecBackward,
-	eMyIcon30SecForward,
-	eMyIconArrowRight,
-    eMyIconMediaRepeat,
     eMyIconWindowExpand,
     eMyIconWindowShrink,
 
     //=== applet icons ===//
     eMyIconUserIdentity,
-    eMyIconSharedContent,
 
     eMyIconMessenger,
-    eMyIconGallery,
 
-    eMyIconVideoStreamViewer,
-    eMyIconCamStreamViewer,
-    eMyIconMusicStreamPlayer,
 
-    eMyIconRemoteControl,
 
-    eMyIconPlugins,
     eMyIconTheme,
 
     eMyIconNetworkKey,
@@ -339,7 +257,6 @@ enum EMyIcons
     eMyIconServiceChatRoom,
     eMyIconServiceConnectionTest,
     eMyIconServiceHostGroup,
-    eMyIconServiceHostGroupListing,
     eMyIconServiceHostNetwork,
     eMyIconServiceShareAboutMe,
     eMyIconServiceShareFiles,
@@ -352,7 +269,6 @@ enum EMyIcons
     eMyIconSettingsChatRoom,
     eMyIconSettingsConnectionTest,
     eMyIconSettingsHostGroup,
-    eMyIconSettingsHostGroupListing,
     eMyIconSettingsHostNetwork,
 	eMyIconSettingsSendFile,
     eMyIconSettingsShareFiles,
@@ -360,11 +276,8 @@ enum EMyIcons
     eMyIconSettingsShareWebCam,
     eMyIconSettingsRandomConnect,
     eMyIconSettingsRandomConnectRelay,
-    eMyIconSettingsRelay,
-    eMyIconFileXfer,
     eMyIconSettingsFileXfer,
     eMyIconSettingsMessenger,
-    eMyIconTruthOrDare,
     eMyIconSettingsTruthOrDare,
     eMyIconSettingsVoicePhone,
     eMyIconSettingsVideoPhone,
@@ -381,9 +294,7 @@ enum EMyIcons
     eMyIconEditCut,
     eMyIconEditField,
     eMyIconEditFileNew,
-    eMyIconEditHeader,
     eMyIconEditItalic,
-    eMyIconEditPaperClip,
     eMyIconEditPaste,
     eMyIconEditPrint,
     eMyIconEditText,
@@ -394,11 +305,7 @@ enum EMyIcons
     eMyIconFileOpen,
     eMyIconFileSave,
     eMyIconFileSaveAs,
-    eMyIconZoomIn,
-    eMyIconZoomOut,
 
-    eMyIconOfferFile,
-    eMyIconOfferFriendship,
 	eMyIconOfferHistory,
     eMyIconOfferList,
     eMyIconOfferTruthOrDare,
@@ -417,7 +324,6 @@ enum EMyIcons
 	eMyIconInviteAccept,
 	eMyIconInviteCreate,
 
-	eMyIconArrowUpRight,
 	eMyIconBoot,
 
 	eMyIconChatRoomInfo,

@@ -263,7 +263,7 @@
             <translation>검색</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletChatRoomListLocalView.ui" line="106" />
+            <location filename="../resources/Forms/AppletChatRoomListLocalView.ui" line="102" />
             <source>Refresh list of announced hosts</source>
             <translation>발표된 호스트 목록 새로 고침</translation>
         </message>
@@ -444,17 +444,17 @@
             <translation>검색</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletFriendList.ui" line="95" />
+            <location filename="../resources/Forms/AppletFriendList.ui" line="91" />
             <source>Online</source>
             <translation>온라인</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletFriendList.ui" line="141" />
+            <location filename="../resources/Forms/AppletFriendList.ui" line="137" />
             <source>Blocked</source>
             <translation>차단됨</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletFriendList.ui" line="187" />
+            <location filename="../resources/Forms/AppletFriendList.ui" line="183" />
             <source>Offline</source>
             <translation>오프라인</translation>
         </message>
@@ -665,7 +665,7 @@
             <translation>그룹 목록 로컬 보기</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletGroupListLocalView.ui" line="106" />
+            <location filename="../resources/Forms/AppletGroupListLocalView.ui" line="102" />
             <source>Refresh list of announced hosts</source>
             <translation>발표된 호스트 목록 새로 고침</translation>
         </message>
@@ -1356,12 +1356,12 @@
             <translation>제안 목록</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletOfferList.ui" line="110" />
+            <location filename="../resources/Forms/AppletOfferList.ui" line="106" />
             <source>Active Offers</source>
             <translation>활성 제안</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletOfferList.ui" line="143" />
+            <location filename="../resources/Forms/AppletOfferList.ui" line="139" />
             <source>Offer History</source>
             <translation>제안 내역</translation>
         </message>
@@ -1811,7 +1811,7 @@
             <translation>무작위 연결 로컬 목록</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletRandomConnectListLocalView.ui" line="106" />
+            <location filename="../resources/Forms/AppletRandomConnectListLocalView.ui" line="102" />
             <source>Refresh list of announced hosts</source>
             <translation>발표된 호스트 목록 새로 고침</translation>
         </message>
@@ -2237,101 +2237,91 @@
             <translation>사용자 신원</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="76" />
-            <source>Delete Account</source>
-            <translation>계정 삭제</translation>
-        </message>
-        <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="85" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="71" />
             <source>Online Identity</source>
             <translation>온라인 신원</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="113" />
-            <source>Select Account</source>
-            <translation>계정 선택</translation>
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="99" />
+            <source>User Name</source>
+            <translation>사용자 이름</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="134" />
-            <source>Mood Message: ( Up to 27 characters )</source>
-            <translation>기분 메시지: (최대 27자)</translation>
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="124" />
+            <source>Mood Message: ( Up to 31 characters )</source>
+            <translation>Mood 메시지 : (최대 31 문자)</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="147" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="137" />
             <source>Let's Communicate!</source>
             <translation>소통하자!</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="156" />
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="201" />
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="246" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="149" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="194" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="239" />
             <source>Apply</source>
             <translation>적용</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="167" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="160" />
             <source>Age:</source>
             <translation>나이:</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="184" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="177" />
             <source>Language:</source>
             <translation>언어:</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="212" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="205" />
             <source>Gender:</source>
             <translation>성별:</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="229" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="222" />
             <source>Preferred Content:</source>
             <translation>선호하는 콘텐츠:</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="264" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="257" />
             <source>Avatar Image</source>
             <translation>아바타 이미지</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="310" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="303" />
             <source>Edit My Avatar Image</source>
             <translation>내 아바타 이미지 편집</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="351" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="344" />
             <source>About Me Page</source>
             <translation>내 소개 페이지</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="382" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="375" />
             <source>Edit My About Me Page</source>
             <translation>내 소개 페이지 편집</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="414" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="407" />
             <source>View My About Me Page</source>
             <translation>내 소개 페이지 보기</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="430" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="423" />
             <source>Story Board Page (Blog)</source>
             <translation>스토리보드 페이지(블로그)</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="461" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="454" />
             <source>Edit My Story Board Page</source>
             <translation>내 스토리보드 페이지 편집</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="493" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="486" />
             <source>View My Story Board Page</source>
             <translation>내 스토리보드 페이지 보기</translation>
-        </message>
-        <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="503" />
-            <source>Create New Account</source>
-            <translation>새 계정 만들기</translation>
         </message>
     </context>
     <context>
@@ -2985,34 +2975,6 @@
             <location filename="../resources/Forms/FileShareItemWidget.ui" line="145" />
             <source>Size</source>
             <translation>크기</translation>
-        </message>
-    </context>
-    <context>
-        <name>FileTypeSelectWidgetUi</name>
-        <message>
-            <location filename="../resources/Forms/FileTypeSelectWidget.ui" line="26" />
-            <source>Form</source>
-            <translation>양식</translation>
-        </message>
-        <message>
-            <location filename="../resources/Forms/FileTypeSelectWidget.ui" line="75" />
-            <source>Video</source>
-            <translation>비디오</translation>
-        </message>
-        <message>
-            <location filename="../resources/Forms/FileTypeSelectWidget.ui" line="107" />
-            <source>Audio</source>
-            <translation>오디오</translation>
-        </message>
-        <message>
-            <location filename="../resources/Forms/FileTypeSelectWidget.ui" line="139" />
-            <source>Image</source>
-            <translation>이미지</translation>
-        </message>
-        <message>
-            <location filename="../resources/Forms/FileTypeSelectWidget.ui" line="171" />
-            <source>All</source>
-            <translation>모두</translation>
         </message>
     </context>
     <context>
@@ -3728,7 +3690,7 @@ File Type: </source>
         </message>
         <message>
             <location filename="../nolimitgui/src/AppCommon.cpp" line="767" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2291" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2541" />
             <location filename="../nolimitgui/src/GuiParams.cpp" line="1387" />
             <source>Unknown Error</source>
             <translation>알 수 없는 오류</translation>
@@ -4790,7 +4752,7 @@ File Type: </source>
         </message>
         <message>
             <location filename="../nolimitgui/src/AppletCreateAccount.cpp" line="96" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1356" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1606" />
             <source>Application</source>
             <translation>신청</translation>
         </message>
@@ -4930,7 +4892,7 @@ Do you want to exit the application?</source>
             <location filename="../nolimitgui/src/AppletFileOfferSelect.cpp" line="289" />
             <location filename="../nolimitgui/src/AppletFileOfferSelect.cpp" line="323" />
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="359" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2302" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2552" />
             <location filename="../nolimitgui/src/GuiParams.cpp" line="1357" />
             <source>File Not Found</source>
             <translation>파일을 찾을 수 없음</translation>
@@ -5767,7 +5729,6 @@ If user is a friend with open port a attempt to reconnect will occur even after 
         </message>
         <message>
             <location filename="../nolimitgui/src/AppletJoinBase.cpp" line="374" />
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="128" />
             <source>?</source>
             <translation>?</translation>
         </message>
@@ -5920,7 +5881,7 @@ __NLC_토큰_0__
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="694" />
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="771" />
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="807" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2178" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2428" />
             <location filename="../nolimitgui/src/ThumbnailEditWidget.cpp" line="107" />
             <source>Could not get thumbnail file info</source>
             <translation>썸네일 파일 정보를 가져올 수 없습니다.</translation>
@@ -5929,8 +5890,8 @@ __NLC_토큰_0__
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="695" />
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="772" />
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="808" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2173" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2179" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2423" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2429" />
             <location filename="../nolimitgui/src/ThumbnailEditWidget.cpp" line="108" />
             <source>Error occured creating thumbnail asset </source>
             <translation>썸네일 자산을 생성하는 중 오류가 발생했습니다. </translation>
@@ -6437,22 +6398,22 @@ If the Network Key is incorrect, you will probably be banned as a hacker.</sourc
             <translation>세션이 종료되었습니다</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2513" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2763" />
             <source>Confirm Shred File</source>
             <translation>파쇄된 파일 확인</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2513" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2763" />
             <source>Confirm Delete File</source>
             <translation>파일 삭제 확인</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2517" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2767" />
             <source>Are You Sure You Want To Write Random Data Into The File Then Delete From The Device?</source>
             <translation>파일에 임의의 데이터를 쓴 다음 장치에서 삭제하시겠습니까?</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2521" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2771" />
             <source>Are You Sure To Delete The File From The Device?</source>
             <translation>장치에서 파일을 삭제하시겠습니까?</translation>
         </message>
@@ -6910,94 +6871,36 @@ If the Network Key is incorrect, you will probably be banned as a hacker.</sourc
             <translation>선택 5</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="125" />
-            <source>Confirm Login To Account</source>
-            <translation>계정 로그인 확인</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="126" />
-            <source>Are You Sure You Want To Login To Account </source>
-            <translation>계정에 로그인하시겠습니까? </translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="197" />
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="236" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="116" />
             <source>Applied Mood Message Change </source>
             <translation>기분 메시지 변경 적용 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="198" />
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="237" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="117" />
             <source>Mood Message Change Success</source>
             <translation>기분 메시지 변경 성공</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="217" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="136" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="142" />
             <source>Applied Age and Preferred Content Change </source>
             <translation>적용연령 및 선호 콘텐츠 변경 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="218" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="136" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="142" />
             <source>Age and Preferred Content Success</source>
             <translation>연령 및 선호하는 콘텐츠 성공</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="255" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="148" />
             <source>Applied Gender Change </source>
             <translation>성별 변경 적용 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="256" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="148" />
             <source>Gender Change Success</source>
             <translation>성별 변경 성공</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="298" />
-            <source>Confirm Create New Account</source>
-            <translation>새 계정 만들기 확인</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="299" />
-            <source>Are You Sure You Want To Create A New Account?</source>
-            <translation>새 계정을 만드시겠습니까?</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="319" />
-            <source>Cannot Delete Account</source>
-            <translation>계정을 삭제할 수 없습니다</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="320" />
-            <source>Cannot Delete An Account That Is In Use</source>
-            <translation>사용 중인 계정은 삭제할 수 없습니다</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="325" />
-            <source>Confirm Delete Account</source>
-            <translation>계정 삭제 확인</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="326" />
-            <source>Are You Sure You Want To Delete This Account?</source>
-            <translation>이 계정을 삭제하시겠습니까?</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="332" />
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="333" />
-            <source>Account was removed</source>
-            <translation>계정이 삭제되었습니다</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="338" />
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="339" />
-            <source>A error occured and account was not removed</source>
-            <translation>오류가 발생하여 계정이 삭제되지 않았습니다.</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="348" />
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="349" />
-            <source>Connot delete the last account</source>
-            <translation>마지막 계정을 삭제하지 마세요</translation>
         </message>
         <message>
             <location filename="../nolimitgui/src/AppletSoundSettings.cpp" line="578" />
@@ -7116,195 +7019,195 @@ If the Network Key is incorrect, you will probably be banned as a hacker.</sourc
             <translation>권한 수준이 충분하지 않습니다. </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="62" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="70" />
             <source>Open Folder</source>
             <translation>폴더 열기</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="299" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="307" />
             <source>Select Media File</source>
             <translation>미디어 파일 선택</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="307" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="315" />
             <source>Select Video File</source>
             <translation>비디오 파일 선택</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="317" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="325" />
             <source>Select Audio File</source>
             <translation>오디오 파일 선택</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="326" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="334" />
             <source>Select Image File</source>
             <translation>이미지 파일 선택</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="387" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="395" />
             <source>Cannot Read File</source>
             <translation>파일을 읽을 수 없습니다</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1307" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1313" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1319" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1325" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1331" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1337" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1343" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1557" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1563" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1569" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1575" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1581" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1587" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1593" />
             <source>Invalid User Name</source>
             <translation>잘못된 사용자 이름</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1307" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1557" />
             <source>User Name cannot have NoLimitConnect in name.</source>
             <translation>사용자 이름에는 NoLimitConnect가 포함될 수 없습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1313" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1563" />
             <source>User Name cannot have special character quote.</source>
             <translation>사용자 이름에는 특수 문자를 인용할 수 없습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1319" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1569" />
             <source>User Name cannot have comma.</source>
             <translation>사용자 이름에는 쉼표가 포함될 수 없습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1325" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1575" />
             <source>User Name cannot have special character parentheses.</source>
             <translation>사용자 이름에는 특수 문자 괄호를 사용할 수 없습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1331" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1581" />
             <source>User Name cannot have special character slashes.</source>
             <translation>사용자 이름에는 특수 문자 슬래시를 사용할 수 없습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1337" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1587" />
             <source>User Name is too long (maximum 31 chars).</source>
             <translation>사용자 이름이 너무 깁니다(최대 31자).</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1343" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1593" />
             <source>User Name is too short (minimum 4 chars).</source>
             <translation>사용자 이름이 너무 짧습니다(최소 4자).</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1356" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1606" />
             <source>Mood Message is too long (maximum 31 chars)</source>
             <translation>기분 메시지가 너무 깁니다(최대 31자).</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1368" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1374" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1618" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1624" />
             <source>Age Verify</source>
             <translation>연령 확인</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1368" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1618" />
             <source>Invalid Age</source>
             <translation>유효하지 않은 연령</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1374" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1624" />
             <source>Age Connot be greater than 120 years old</source>
             <translation>연령은 120세 이상이어야 합니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2172" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2422" />
             <source>Could not create thumbnail asset</source>
             <translation>썸네일 자산을 생성할 수 없습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2231" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2481" />
             <source>User Unavailable</source>
             <translation>사용자를 사용할 수 없음</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2232" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2482" />
             <source>User </source>
             <translation>사용자 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2232" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2482" />
             <source> Is Unavailable</source>
             <translation> 사용할 수 없음</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2236" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2486" />
             <source>User is offline</source>
             <translation>사용자가 오프라인 상태입니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2237" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2487" />
             <source>User is no longer connected</source>
             <translation>사용자가 더 이상 연결되어 있지 않습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2241" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2491" />
             <source>Already In A Session</source>
             <translation>이미 세션에 있음</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2242" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2492" />
             <source>Already in session. Please close existing session and try again</source>
             <translation>이미 세션 중입니다. 기존 세션을 닫고 다시 시도하십시오.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2246" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2247" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2496" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2497" />
             <source>Session not found</source>
             <translation>세션을 찾을 수 없습니다</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2251" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2501" />
             <source>Sent User An Offer</source>
             <translation>사용자에게 제안을 보냈습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2252" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2502" />
             <source>Offer Was Sent To  </source>
             <translation>제안을 보낸 사람  </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2256" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2506" />
             <source>Send Offer Failed</source>
             <translation>제안 보내기 실패</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2257" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2507" />
             <source>Offer Send Failed  </source>
             <translation>제안 전송 실패  </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2261" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2511" />
             <source>Not Connected</source>
             <translation>연결되지 않음</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2262" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2512" />
             <source>You are not connected to host </source>
             <translation>호스트에 연결되어 있지 않습니다 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2266" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2516" />
             <source>No User Selected</source>
             <translation>선택된 사용자 없음</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2267" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2517" />
             <source>You must select a user to send to </source>
             <translation>보낼 사용자를 선택해야 합니다. </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2271" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2521" />
             <source>Purge Everthing Warning</source>
             <translation>모든 경고 제거</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2272" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2522" />
             <source>This action will delete everything not locked including Identity, Downloaded Files, Storyboard, Message History Etc.
 The action cannot be undone
 Are you very sure you want to proceed?</source>
@@ -7313,221 +7216,221 @@ Are you very sure you want to proceed?</source>
 계속하시겠습니까?</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2276" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2526" />
             <source>Voice Message Too Short</source>
             <translation>음성 메시지가 너무 짧음</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2277" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2527" />
             <source>The Voice Message was too short and will not be sent.</source>
             <translation>음성 메시지가 너무 짧아 전송되지 않습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2281" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2531" />
             <source>Video clip Too Short</source>
             <translation>비디오 클립이 너무 짧음</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2282" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2532" />
             <source>The Video Clip was too short and will not be sent.</source>
             <translation>동영상 클립이 너무 짧아 전송되지 않습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2286" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2536" />
             <source>Video record failed to start</source>
             <translation>동영상 녹화를 시작하지 못했습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2287" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2537" />
             <source>Video record failed to start.</source>
             <translation>비디오 녹화를 시작하지 못했습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2292" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2542" />
             <source>Unknown Error </source>
             <translation>알 수 없는 오류 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2292" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2542" />
             <source> for user </source>
             <translation> 사용자를 위한 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2303" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2553" />
             <source>File Name Is Empty</source>
             <translation>파일 이름이 비어 있습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2311" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2312" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2561" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2562" />
             <source>Access File Permissions Denied By User</source>
             <translation>사용자가 파일 액세스 권한을 거부했습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2320" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2570" />
             <source>Application Not Ready</source>
             <translation>애플리케이션이 준비되지 않음</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2321" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2571" />
             <source>Cannot launch applet until network is available</source>
             <translation>네트워크를 사용할 수 있을 때까지 애플릿을 시작할 수 없습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2321" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2571" />
             <source>Cannot Launch Applet Until Application Has Initialized</source>
             <translation>애플리케이션이 초기화될 때까지 애플릿을 시작할 수 없습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2329" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2579" />
             <source>Requires Open Port</source>
             <translation>개방형 포트 필요</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2330" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2580" />
             <source>Action requires a open port</source>
             <translation>작업을 수행하려면 열린 포트가 필요합니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2338" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2347" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2588" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2597" />
             <source>Invalid Invite</source>
             <translation>잘못된 초대</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2339" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2589" />
             <source>The invite is invalid</source>
             <translation>초대가 유효하지 않습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2348" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2598" />
             <source>Cannot accept invite from myself</source>
             <translation>내 초대를 수락할 수 없습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2356" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2606" />
             <source>Invalid User</source>
             <translation>잘못된 사용자</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2357" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2607" />
             <source>Could not find the user</source>
             <translation>사용자를 찾을 수 없습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2365" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2615" />
             <source>User Not Online</source>
             <translation>사용자가 온라인이 아님</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2366" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2616" />
             <source>The user is not currently online</source>
             <translation>사용자가 현재 온라인 상태가 아닙니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2374" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2624" />
             <source>Friendship Level To Low</source>
             <translation>우정 수준이 낮음</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2375" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2625" />
             <source>Requires friendship of friend or higher</source>
             <translation>친구 이상의 우정이 필요합니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2383" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2633" />
             <source>Invalid Host Id</source>
             <translation>잘못된 호스트 ID</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2384" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2634" />
             <source>Host Id has not been set</source>
             <translation>호스트 ID가 설정되지 않았습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2392" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2642" />
             <source>Invalid URL</source>
             <translation>잘못된 URL</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2393" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2643" />
             <source>The host url is not valid</source>
             <translation>호스트 URL이 유효하지 않습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2401" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2651" />
             <source>Invalid Host Type</source>
             <translation>잘못된 호스트 유형</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2402" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2652" />
             <source>The host url does not have a vailid host type</source>
             <translation>호스트 URL에 유효한 호스트 유형이 없습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2410" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2660" />
             <source>No Members Online</source>
             <translation>온라인 회원 없음</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2411" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2661" />
             <source>There are no members online to send to</source>
             <translation>온라인에 보낼 회원이 없습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2419" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2473" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2669" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2723" />
             <source>Failed to add asset</source>
             <translation>자산을 추가하지 못했습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2420" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2474" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2670" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2724" />
             <source>Failed to add asset. Please check disk space</source>
             <translation>자산을 추가하지 못했습니다. 디스크 공간을 확인하세요</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2429" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2679" />
             <source>Failed to send </source>
             <translation>보내지 못했습니다. </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2430" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2680" />
             <source>Failed to send to </source>
             <translation>다음으로 보내지 못했습니다. </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2440" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2690" />
             <source>No members to send to</source>
             <translation>보낼 회원이 없습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2444" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2694" />
             <source>Admin is offline</source>
             <translation>관리자가 오프라인 상태입니다</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2448" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2698" />
             <source>Cannot send to self</source>
             <translation>자신에게 보낼 수 없습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2452" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2702" />
             <source>Invalid host or state</source>
             <translation>잘못된 호스트 또는 상태</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2456" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2706" />
             <source>Unknown reason</source>
             <translation>알 수 없는 이유</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2464" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2714" />
             <source>Cannot send </source>
             <translation>보낼 수 없습니다 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2465" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2715" />
             <source>Cannot send reason: </source>
             <translation>보낼 수 없는 이유: </translation>
         </message>
@@ -9955,60 +9858,60 @@ Are you very sure you want to proceed?</source>
  응용프로그램이 종료됩니다</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="538" />
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="630" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="543" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="635" />
             <source>Invalid emoticon id</source>
             <translation>잘못된 이모티콘 ID</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="574" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="579" />
             <source>Error occured creating emoticon file</source>
             <translation>이모티콘 파일을 생성하는 중 오류가 발생했습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="631" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="636" />
             <source>Invalid emoticon id </source>
             <translation>잘못된 이모티콘 ID </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="673" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="675" />
             <source>Could not create emoticon asset</source>
             <translation>이모티콘 자산을 생성할 수 없습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="674" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="676" />
             <source>Error occured creating emoticon asset </source>
             <translation>이모티콘 자산을 생성하는 중에 오류가 발생했습니다. </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="679" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="681" />
             <source>Could not get file info of emoticon png file</source>
             <translation>이모티콘 png 파일의 파일 정보를 가져올 수 없습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="680" />
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="686" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="682" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="688" />
             <source>Error occured creating emoticon file </source>
             <translation>이모티콘 파일을 생성하는 중 오류가 발생했습니다. </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="685" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="687" />
             <source>Could not create emoticon png file</source>
             <translation>이모티콘 png 파일을 생성할 수 없습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="691" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="693" />
             <source>Could not create emoticon image</source>
             <translation>이모티콘 이미지를 생성할 수 없습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="692" />
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="712" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="694" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="714" />
             <source>Error occured creating emoticon image %1</source>
             <translation>이모티콘 이미지 %1을(를) 생성하는 중 오류가 발생했습니다.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="711" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="713" />
             <source>Could create emoticon image</source>
             <translation>이모티콘 이미지를 만들 수 있습니다</translation>
         </message>

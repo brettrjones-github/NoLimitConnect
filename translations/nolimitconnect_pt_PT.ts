@@ -263,7 +263,7 @@
             <translation>Pesquisar</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletChatRoomListLocalView.ui" line="106" />
+            <location filename="../resources/Forms/AppletChatRoomListLocalView.ui" line="102" />
             <source>Refresh list of announced hosts</source>
             <translation>Atualizar lista de hosts anunciados</translation>
         </message>
@@ -444,17 +444,17 @@
             <translation>Pesquisar</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletFriendList.ui" line="95" />
+            <location filename="../resources/Forms/AppletFriendList.ui" line="91" />
             <source>Online</source>
             <translation>On-line</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletFriendList.ui" line="141" />
+            <location filename="../resources/Forms/AppletFriendList.ui" line="137" />
             <source>Blocked</source>
             <translation>Bloqueado</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletFriendList.ui" line="187" />
+            <location filename="../resources/Forms/AppletFriendList.ui" line="183" />
             <source>Offline</source>
             <translation>Off-line</translation>
         </message>
@@ -665,7 +665,7 @@
             <translation>Visualização local da lista de grupos</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletGroupListLocalView.ui" line="106" />
+            <location filename="../resources/Forms/AppletGroupListLocalView.ui" line="102" />
             <source>Refresh list of announced hosts</source>
             <translation>Atualizar lista de hosts anunciados</translation>
         </message>
@@ -1356,12 +1356,12 @@
             <translation>Lista de ofertas</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletOfferList.ui" line="110" />
+            <location filename="../resources/Forms/AppletOfferList.ui" line="106" />
             <source>Active Offers</source>
             <translation>Ofertas Ativas</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletOfferList.ui" line="143" />
+            <location filename="../resources/Forms/AppletOfferList.ui" line="139" />
             <source>Offer History</source>
             <translation>Histórico de ofertas</translation>
         </message>
@@ -1811,7 +1811,7 @@
             <translation>Lista local de conexão aleatória</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletRandomConnectListLocalView.ui" line="106" />
+            <location filename="../resources/Forms/AppletRandomConnectListLocalView.ui" line="102" />
             <source>Refresh list of announced hosts</source>
             <translation>Atualizar lista de hosts anunciados</translation>
         </message>
@@ -2237,101 +2237,91 @@
             <translation>Identidade do usuário</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="76" />
-            <source>Delete Account</source>
-            <translation>Excluir conta</translation>
-        </message>
-        <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="85" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="71" />
             <source>Online Identity</source>
             <translation>Identidade On-line</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="113" />
-            <source>Select Account</source>
-            <translation>Selecione a conta</translation>
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="99" />
+            <source>User Name</source>
+            <translation>Nome do Utilizador</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="134" />
-            <source>Mood Message: ( Up to 27 characters )</source>
-            <translation>Mensagem de humor: (até 27 caracteres)</translation>
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="124" />
+            <source>Mood Message: ( Up to 31 characters )</source>
+            <translation>Mensagem de humor: ( Até 31 caracteres)</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="147" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="137" />
             <source>Let's Communicate!</source>
             <translation>Vamos nos comunicar!</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="156" />
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="201" />
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="246" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="149" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="194" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="239" />
             <source>Apply</source>
             <translation>Aplicar</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="167" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="160" />
             <source>Age:</source>
             <translation>Idade:</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="184" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="177" />
             <source>Language:</source>
             <translation>Idioma:</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="212" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="205" />
             <source>Gender:</source>
             <translation>Gênero:</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="229" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="222" />
             <source>Preferred Content:</source>
             <translation>Conteúdo preferido:</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="264" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="257" />
             <source>Avatar Image</source>
             <translation>Imagem do avatar</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="310" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="303" />
             <source>Edit My Avatar Image</source>
             <translation>Editar minha imagem de avatar</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="351" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="344" />
             <source>About Me Page</source>
             <translation>Página Sobre mim</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="382" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="375" />
             <source>Edit My About Me Page</source>
             <translation>Editar minha página sobre mim</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="414" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="407" />
             <source>View My About Me Page</source>
             <translation>Ver minha página sobre mim</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="430" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="423" />
             <source>Story Board Page (Blog)</source>
             <translation>Página do storyboard (blog)</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="461" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="454" />
             <source>Edit My Story Board Page</source>
             <translation>Editar minha página do Story Board</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="493" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="486" />
             <source>View My Story Board Page</source>
             <translation>Ver minha página do Story Board</translation>
-        </message>
-        <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="503" />
-            <source>Create New Account</source>
-            <translation>Criar nova conta</translation>
         </message>
     </context>
     <context>
@@ -2985,34 +2975,6 @@
             <location filename="../resources/Forms/FileShareItemWidget.ui" line="145" />
             <source>Size</source>
             <translation>Tamanho</translation>
-        </message>
-    </context>
-    <context>
-        <name>FileTypeSelectWidgetUi</name>
-        <message>
-            <location filename="../resources/Forms/FileTypeSelectWidget.ui" line="26" />
-            <source>Form</source>
-            <translation>Formulário</translation>
-        </message>
-        <message>
-            <location filename="../resources/Forms/FileTypeSelectWidget.ui" line="75" />
-            <source>Video</source>
-            <translation>Vídeo</translation>
-        </message>
-        <message>
-            <location filename="../resources/Forms/FileTypeSelectWidget.ui" line="107" />
-            <source>Audio</source>
-            <translation>Áudio</translation>
-        </message>
-        <message>
-            <location filename="../resources/Forms/FileTypeSelectWidget.ui" line="139" />
-            <source>Image</source>
-            <translation>Imagem</translation>
-        </message>
-        <message>
-            <location filename="../resources/Forms/FileTypeSelectWidget.ui" line="171" />
-            <source>All</source>
-            <translation>Todos</translation>
         </message>
     </context>
     <context>
@@ -3728,7 +3690,7 @@ File Type: </source>
         </message>
         <message>
             <location filename="../nolimitgui/src/AppCommon.cpp" line="767" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2291" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2541" />
             <location filename="../nolimitgui/src/GuiParams.cpp" line="1387" />
             <source>Unknown Error</source>
             <translation>Erro desconhecido</translation>
@@ -4790,7 +4752,7 @@ File Type: </source>
         </message>
         <message>
             <location filename="../nolimitgui/src/AppletCreateAccount.cpp" line="96" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1356" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1606" />
             <source>Application</source>
             <translation>Aplicação</translation>
         </message>
@@ -4930,7 +4892,7 @@ Deseja sair do aplicativo?</translation>
             <location filename="../nolimitgui/src/AppletFileOfferSelect.cpp" line="289" />
             <location filename="../nolimitgui/src/AppletFileOfferSelect.cpp" line="323" />
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="359" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2302" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2552" />
             <location filename="../nolimitgui/src/GuiParams.cpp" line="1357" />
             <source>File Not Found</source>
             <translation>Arquivo não encontrado</translation>
@@ -5767,7 +5729,6 @@ Se o usuário for um amigo com porta aberta, uma tentativa de reconectar ocorrer
         </message>
         <message>
             <location filename="../nolimitgui/src/AppletJoinBase.cpp" line="374" />
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="128" />
             <source>?</source>
             <translation>?</translation>
         </message>
@@ -5920,7 +5881,7 @@ Remover este item da Minha Biblioteca e do banco de dados de ativos?</translatio
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="694" />
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="771" />
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="807" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2178" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2428" />
             <location filename="../nolimitgui/src/ThumbnailEditWidget.cpp" line="107" />
             <source>Could not get thumbnail file info</source>
             <translation>Não foi possível obter informações do arquivo em miniatura</translation>
@@ -5929,8 +5890,8 @@ Remover este item da Minha Biblioteca e do banco de dados de ativos?</translatio
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="695" />
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="772" />
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="808" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2173" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2179" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2423" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2429" />
             <location filename="../nolimitgui/src/ThumbnailEditWidget.cpp" line="108" />
             <source>Error occured creating thumbnail asset </source>
             <translation>Ocorreu um erro ao criar o recurso de miniatura </translation>
@@ -6437,22 +6398,22 @@ Se a chave de rede estiver incorreta, você provavelmente será banido como hack
             <translation>Sessão encerrada</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2513" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2763" />
             <source>Confirm Shred File</source>
             <translation>Confirmar fragmentação do arquivo</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2513" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2763" />
             <source>Confirm Delete File</source>
             <translation>Confirmar exclusão do arquivo</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2517" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2767" />
             <source>Are You Sure You Want To Write Random Data Into The File Then Delete From The Device?</source>
             <translation>Tem certeza de que deseja gravar dados aleatórios no arquivo e excluí-los do dispositivo?</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2521" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2771" />
             <source>Are You Sure To Delete The File From The Device?</source>
             <translation>Tem certeza de que deseja excluir o arquivo do dispositivo?</translation>
         </message>
@@ -6910,94 +6871,36 @@ Se a chave de rede estiver incorreta, você provavelmente será banido como hack
             <translation>Seleção 5</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="125" />
-            <source>Confirm Login To Account</source>
-            <translation>Confirme o login na conta</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="126" />
-            <source>Are You Sure You Want To Login To Account </source>
-            <translation>Tem certeza de que deseja fazer login na conta </translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="197" />
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="236" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="116" />
             <source>Applied Mood Message Change </source>
             <translation>Mudança de mensagem de humor aplicada </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="198" />
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="237" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="117" />
             <source>Mood Message Change Success</source>
             <translation>Sucesso na mudança de mensagem de humor</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="217" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="136" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="142" />
             <source>Applied Age and Preferred Content Change </source>
             <translation>Idade aplicada e alteração de conteúdo preferencial </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="218" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="136" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="142" />
             <source>Age and Preferred Content Success</source>
             <translation>Sucesso de idade e conteúdo preferido</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="255" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="148" />
             <source>Applied Gender Change </source>
             <translation>Mudança de gênero aplicada </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="256" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="148" />
             <source>Gender Change Success</source>
             <translation>Sucesso na mudança de gênero</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="298" />
-            <source>Confirm Create New Account</source>
-            <translation>Confirme a criação de nova conta</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="299" />
-            <source>Are You Sure You Want To Create A New Account?</source>
-            <translation>Tem certeza de que deseja criar uma nova conta?</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="319" />
-            <source>Cannot Delete Account</source>
-            <translation>Não é possível excluir a conta</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="320" />
-            <source>Cannot Delete An Account That Is In Use</source>
-            <translation>Não é possível excluir uma conta que está em uso</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="325" />
-            <source>Confirm Delete Account</source>
-            <translation>Confirmar exclusão da conta</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="326" />
-            <source>Are You Sure You Want To Delete This Account?</source>
-            <translation>Tem certeza de que deseja excluir esta conta?</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="332" />
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="333" />
-            <source>Account was removed</source>
-            <translation>A conta foi removida</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="338" />
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="339" />
-            <source>A error occured and account was not removed</source>
-            <translation>Ocorreu um erro e a conta não foi removida</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="348" />
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="349" />
-            <source>Connot delete the last account</source>
-            <translation>Não é possível excluir a última conta</translation>
         </message>
         <message>
             <location filename="../nolimitgui/src/AppletSoundSettings.cpp" line="578" />
@@ -7116,195 +7019,195 @@ Se a chave de rede estiver incorreta, você provavelmente será banido como hack
             <translation>Nível de permissão insuficiente </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="62" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="70" />
             <source>Open Folder</source>
             <translation>Abrir pasta</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="299" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="307" />
             <source>Select Media File</source>
             <translation>Selecione o arquivo de mídia</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="307" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="315" />
             <source>Select Video File</source>
             <translation>Selecione o arquivo de vídeo</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="317" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="325" />
             <source>Select Audio File</source>
             <translation>Selecione o arquivo de áudio</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="326" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="334" />
             <source>Select Image File</source>
             <translation>Selecione o arquivo de imagem</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="387" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="395" />
             <source>Cannot Read File</source>
             <translation>Não é possível ler o arquivo</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1307" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1313" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1319" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1325" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1331" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1337" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1343" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1557" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1563" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1569" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1575" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1581" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1587" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1593" />
             <source>Invalid User Name</source>
             <translation>Nome de usuário inválido</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1307" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1557" />
             <source>User Name cannot have NoLimitConnect in name.</source>
             <translation>O nome de usuário não pode ter NoLimitConnect no nome.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1313" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1563" />
             <source>User Name cannot have special character quote.</source>
             <translation>O nome de usuário não pode conter aspas de caracteres especiais.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1319" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1569" />
             <source>User Name cannot have comma.</source>
             <translation>O nome de usuário não pode conter vírgula.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1325" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1575" />
             <source>User Name cannot have special character parentheses.</source>
             <translation>O nome de usuário não pode ter parênteses de caracteres especiais.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1331" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1581" />
             <source>User Name cannot have special character slashes.</source>
             <translation>O nome de usuário não pode conter barras de caracteres especiais.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1337" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1587" />
             <source>User Name is too long (maximum 31 chars).</source>
             <translation>O nome de usuário é muito longo (máximo de 31 caracteres).</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1343" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1593" />
             <source>User Name is too short (minimum 4 chars).</source>
             <translation>O nome de usuário é muito curto (mínimo de 4 caracteres).</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1356" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1606" />
             <source>Mood Message is too long (maximum 31 chars)</source>
             <translation>A mensagem de humor é muito longa (máximo de 31 caracteres)</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1368" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1374" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1618" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1624" />
             <source>Age Verify</source>
             <translation>Verificação de idade</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1368" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1618" />
             <source>Invalid Age</source>
             <translation>Idade inválida</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1374" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1624" />
             <source>Age Connot be greater than 120 years old</source>
             <translation>Idade não pode ser superior a 120 anos</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2172" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2422" />
             <source>Could not create thumbnail asset</source>
             <translation>Não foi possível criar o recurso de miniatura</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2231" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2481" />
             <source>User Unavailable</source>
             <translation>Usuário indisponível</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2232" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2482" />
             <source>User </source>
             <translation>Usuário </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2232" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2482" />
             <source> Is Unavailable</source>
             <translation> Não está disponível</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2236" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2486" />
             <source>User is offline</source>
             <translation>O usuário está off-line</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2237" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2487" />
             <source>User is no longer connected</source>
             <translation>O usuário não está mais conectado</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2241" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2491" />
             <source>Already In A Session</source>
             <translation>Já em uma sessão</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2242" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2492" />
             <source>Already in session. Please close existing session and try again</source>
             <translation>Já em sessão. Feche a sessão existente e tente novamente</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2246" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2247" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2496" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2497" />
             <source>Session not found</source>
             <translation>Sessão não encontrada</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2251" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2501" />
             <source>Sent User An Offer</source>
             <translation>Enviou uma oferta ao usuário</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2252" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2502" />
             <source>Offer Was Sent To  </source>
             <translation>A oferta foi enviada para  </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2256" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2506" />
             <source>Send Offer Failed</source>
             <translation>Falha ao enviar oferta</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2257" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2507" />
             <source>Offer Send Failed  </source>
             <translation>Falha no envio da oferta  </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2261" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2511" />
             <source>Not Connected</source>
             <translation>Não conectado</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2262" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2512" />
             <source>You are not connected to host </source>
             <translation>Você não está conectado ao host </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2266" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2516" />
             <source>No User Selected</source>
             <translation>Nenhum usuário selecionado</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2267" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2517" />
             <source>You must select a user to send to </source>
             <translation>Você deve selecionar um usuário para enviar </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2271" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2521" />
             <source>Purge Everthing Warning</source>
             <translation>Aviso de purga de tudo</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2272" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2522" />
             <source>This action will delete everything not locked including Identity, Downloaded Files, Storyboard, Message History Etc.
 The action cannot be undone
 Are you very sure you want to proceed?</source>
@@ -7313,221 +7216,221 @@ A ação não pode ser desfeita
 Você tem certeza de que deseja prosseguir?</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2276" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2526" />
             <source>Voice Message Too Short</source>
             <translation>Mensagem de voz muito curta</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2277" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2527" />
             <source>The Voice Message was too short and will not be sent.</source>
             <translation>A mensagem de voz foi muito curta e não será enviada.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2281" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2531" />
             <source>Video clip Too Short</source>
             <translation>Clipe de vídeo muito curto</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2282" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2532" />
             <source>The Video Clip was too short and will not be sent.</source>
             <translation>O Video Clip era muito curto e não será enviado.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2286" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2536" />
             <source>Video record failed to start</source>
             <translation>A gravação de vídeo não pôde ser iniciada</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2287" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2537" />
             <source>Video record failed to start.</source>
             <translation>A gravação de vídeo não pôde ser iniciada.</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2292" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2542" />
             <source>Unknown Error </source>
             <translation>Erro desconhecido </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2292" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2542" />
             <source> for user </source>
             <translation> para usuário </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2303" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2553" />
             <source>File Name Is Empty</source>
             <translation>O nome do arquivo está vazio</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2311" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2312" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2561" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2562" />
             <source>Access File Permissions Denied By User</source>
             <translation>Permissões de acesso a arquivos negadas pelo usuário</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2320" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2570" />
             <source>Application Not Ready</source>
             <translation>Aplicativo não pronto</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2321" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2571" />
             <source>Cannot launch applet until network is available</source>
             <translation>Não é possível iniciar o miniaplicativo até que a rede esteja disponível</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2321" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2571" />
             <source>Cannot Launch Applet Until Application Has Initialized</source>
             <translation>Não é possível iniciar o miniaplicativo até que o aplicativo seja inicializado</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2329" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2579" />
             <source>Requires Open Port</source>
             <translation>Requer porta aberta</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2330" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2580" />
             <source>Action requires a open port</source>
             <translation>A ação requer uma porta aberta</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2338" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2347" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2588" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2597" />
             <source>Invalid Invite</source>
             <translation>Convite inválido</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2339" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2589" />
             <source>The invite is invalid</source>
             <translation>O convite é inválido</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2348" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2598" />
             <source>Cannot accept invite from myself</source>
             <translation>Não posso aceitar convite meu</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2356" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2606" />
             <source>Invalid User</source>
             <translation>Usuário inválido</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2357" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2607" />
             <source>Could not find the user</source>
             <translation>Não foi possível encontrar o usuário</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2365" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2615" />
             <source>User Not Online</source>
             <translation>Usuário não online</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2366" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2616" />
             <source>The user is not currently online</source>
             <translation>O usuário não está online no momento</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2374" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2624" />
             <source>Friendship Level To Low</source>
             <translation>Nível de amizade muito baixo</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2375" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2625" />
             <source>Requires friendship of friend or higher</source>
             <translation>Requer amizade de amigo ou superior</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2383" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2633" />
             <source>Invalid Host Id</source>
             <translation>ID de host inválido</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2384" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2634" />
             <source>Host Id has not been set</source>
             <translation>O ID do host não foi definido</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2392" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2642" />
             <source>Invalid URL</source>
             <translation>URL inválido</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2393" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2643" />
             <source>The host url is not valid</source>
             <translation>O URL do host não é válido</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2401" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2651" />
             <source>Invalid Host Type</source>
             <translation>Tipo de host inválido</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2402" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2652" />
             <source>The host url does not have a vailid host type</source>
             <translation>O URL do host não possui um tipo de host válido</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2410" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2660" />
             <source>No Members Online</source>
             <translation>Nenhum membro on-line</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2411" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2661" />
             <source>There are no members online to send to</source>
             <translation>Não há membros online para enviar</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2419" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2473" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2669" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2723" />
             <source>Failed to add asset</source>
             <translation>Falha ao adicionar recurso</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2420" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2474" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2670" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2724" />
             <source>Failed to add asset. Please check disk space</source>
             <translation>Falha ao adicionar recurso. Verifique o espaço em disco</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2429" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2679" />
             <source>Failed to send </source>
             <translation>Falha ao enviar </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2430" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2680" />
             <source>Failed to send to </source>
             <translation>Falha ao enviar para </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2440" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2690" />
             <source>No members to send to</source>
             <translation>Nenhum membro para enviar</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2444" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2694" />
             <source>Admin is offline</source>
             <translation>O administrador está off-line</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2448" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2698" />
             <source>Cannot send to self</source>
             <translation>Não é possível enviar para si mesmo</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2452" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2702" />
             <source>Invalid host or state</source>
             <translation>Host ou estado inválido</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2456" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2706" />
             <source>Unknown reason</source>
             <translation>Razão desconhecida</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2464" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2714" />
             <source>Cannot send </source>
             <translation>Não é possível enviar </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2465" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2715" />
             <source>Cannot send reason: </source>
             <translation>Não é possível enviar o motivo: </translation>
         </message>
@@ -9955,60 +9858,60 @@ Você tem certeza de que deseja prosseguir?</translation>
  O aplicativo será encerrado</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="538" />
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="630" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="543" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="635" />
             <source>Invalid emoticon id</source>
             <translation>ID de emoticon inválido</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="574" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="579" />
             <source>Error occured creating emoticon file</source>
             <translation>Ocorreu um erro ao criar o arquivo de emoticon</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="631" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="636" />
             <source>Invalid emoticon id </source>
             <translation>ID de emoticon inválido </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="673" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="675" />
             <source>Could not create emoticon asset</source>
             <translation>Não foi possível criar recurso de emoticon</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="674" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="676" />
             <source>Error occured creating emoticon asset </source>
             <translation>Ocorreu um erro ao criar o recurso de emoticon </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="679" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="681" />
             <source>Could not get file info of emoticon png file</source>
             <translation>Não foi possível obter informações do arquivo png emoticon</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="680" />
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="686" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="682" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="688" />
             <source>Error occured creating emoticon file </source>
             <translation>Ocorreu um erro ao criar o arquivo de emoticon </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="685" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="687" />
             <source>Could not create emoticon png file</source>
             <translation>Não foi possível criar o arquivo png emoticon</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="691" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="693" />
             <source>Could not create emoticon image</source>
             <translation>Não foi possível criar a imagem do emoticon</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="692" />
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="712" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="694" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="714" />
             <source>Error occured creating emoticon image %1</source>
             <translation>Ocorreu um erro ao criar a imagem do emoticon %1</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="711" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="713" />
             <source>Could create emoticon image</source>
             <translation>Poderia criar imagem emoticon</translation>
         </message>

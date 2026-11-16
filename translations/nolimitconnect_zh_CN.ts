@@ -263,7 +263,7 @@
             <translation>搜索</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletChatRoomListLocalView.ui" line="106" />
+            <location filename="../resources/Forms/AppletChatRoomListLocalView.ui" line="102" />
             <source>Refresh list of announced hosts</source>
             <translation>刷新已公布的主机列表</translation>
         </message>
@@ -444,17 +444,17 @@
             <translation>搜索</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletFriendList.ui" line="95" />
+            <location filename="../resources/Forms/AppletFriendList.ui" line="91" />
             <source>Online</source>
             <translation>在线</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletFriendList.ui" line="141" />
+            <location filename="../resources/Forms/AppletFriendList.ui" line="137" />
             <source>Blocked</source>
             <translation>被阻止</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletFriendList.ui" line="187" />
+            <location filename="../resources/Forms/AppletFriendList.ui" line="183" />
             <source>Offline</source>
             <translation>离线</translation>
         </message>
@@ -665,7 +665,7 @@
             <translation>组列表本地视图</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletGroupListLocalView.ui" line="106" />
+            <location filename="../resources/Forms/AppletGroupListLocalView.ui" line="102" />
             <source>Refresh list of announced hosts</source>
             <translation>刷新已公布的主机列表</translation>
         </message>
@@ -1356,12 +1356,12 @@
             <translation>报价清单</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletOfferList.ui" line="110" />
+            <location filename="../resources/Forms/AppletOfferList.ui" line="106" />
             <source>Active Offers</source>
             <translation>活跃优惠</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletOfferList.ui" line="143" />
+            <location filename="../resources/Forms/AppletOfferList.ui" line="139" />
             <source>Offer History</source>
             <translation>优惠历史</translation>
         </message>
@@ -1811,7 +1811,7 @@
             <translation>随机连接本地列表</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletRandomConnectListLocalView.ui" line="106" />
+            <location filename="../resources/Forms/AppletRandomConnectListLocalView.ui" line="102" />
             <source>Refresh list of announced hosts</source>
             <translation>刷新已公布的主机列表</translation>
         </message>
@@ -2237,101 +2237,91 @@
             <translation>用户身份</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="76" />
-            <source>Delete Account</source>
-            <translation>删除帐户</translation>
-        </message>
-        <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="85" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="71" />
             <source>Online Identity</source>
             <translation>在线身份</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="113" />
-            <source>Select Account</source>
-            <translation>选择账户</translation>
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="99" />
+            <source>User Name</source>
+            <translation>用户名</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="134" />
-            <source>Mood Message: ( Up to 27 characters )</source>
-            <translation>心情信息：（最多 27 个字符）</translation>
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="124" />
+            <source>Mood Message: ( Up to 31 characters )</source>
+            <translation>Mood 信件 : (最多 31 个字符)</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="147" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="137" />
             <source>Let's Communicate!</source>
             <translation>让我们交流一下吧！</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="156" />
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="201" />
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="246" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="149" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="194" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="239" />
             <source>Apply</source>
             <translation>申请</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="167" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="160" />
             <source>Age:</source>
             <translation>年龄：</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="184" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="177" />
             <source>Language:</source>
             <translation>语言：</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="212" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="205" />
             <source>Gender:</source>
             <translation>性别：</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="229" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="222" />
             <source>Preferred Content:</source>
             <translation>首选内容：</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="264" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="257" />
             <source>Avatar Image</source>
             <translation>头像图片</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="310" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="303" />
             <source>Edit My Avatar Image</source>
             <translation>编辑我的头像图片</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="351" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="344" />
             <source>About Me Page</source>
             <translation>关于我页面</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="382" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="375" />
             <source>Edit My About Me Page</source>
             <translation>编辑我的关于我页面</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="414" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="407" />
             <source>View My About Me Page</source>
             <translation>查看我的关于我页面</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="430" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="423" />
             <source>Story Board Page (Blog)</source>
             <translation>故事板页面（博客）</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="461" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="454" />
             <source>Edit My Story Board Page</source>
             <translation>编辑我的故事板页面</translation>
         </message>
         <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="493" />
+            <location filename="../resources/Forms/AppletUserIdentity.ui" line="486" />
             <source>View My Story Board Page</source>
             <translation>查看我的故事板页面</translation>
-        </message>
-        <message>
-            <location filename="../resources/Forms/AppletUserIdentity.ui" line="503" />
-            <source>Create New Account</source>
-            <translation>创建新帐户</translation>
         </message>
     </context>
     <context>
@@ -2985,34 +2975,6 @@
             <location filename="../resources/Forms/FileShareItemWidget.ui" line="145" />
             <source>Size</source>
             <translation>尺寸</translation>
-        </message>
-    </context>
-    <context>
-        <name>FileTypeSelectWidgetUi</name>
-        <message>
-            <location filename="../resources/Forms/FileTypeSelectWidget.ui" line="26" />
-            <source>Form</source>
-            <translation>形式</translation>
-        </message>
-        <message>
-            <location filename="../resources/Forms/FileTypeSelectWidget.ui" line="75" />
-            <source>Video</source>
-            <translation>视频</translation>
-        </message>
-        <message>
-            <location filename="../resources/Forms/FileTypeSelectWidget.ui" line="107" />
-            <source>Audio</source>
-            <translation>音频</translation>
-        </message>
-        <message>
-            <location filename="../resources/Forms/FileTypeSelectWidget.ui" line="139" />
-            <source>Image</source>
-            <translation>图片</translation>
-        </message>
-        <message>
-            <location filename="../resources/Forms/FileTypeSelectWidget.ui" line="171" />
-            <source>All</source>
-            <translation>全部</translation>
         </message>
     </context>
     <context>
@@ -3728,7 +3690,7 @@ File Type: </source>
         </message>
         <message>
             <location filename="../nolimitgui/src/AppCommon.cpp" line="767" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2291" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2541" />
             <location filename="../nolimitgui/src/GuiParams.cpp" line="1387" />
             <source>Unknown Error</source>
             <translation>未知错误</translation>
@@ -4790,7 +4752,7 @@ File Type: </source>
         </message>
         <message>
             <location filename="../nolimitgui/src/AppletCreateAccount.cpp" line="96" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1356" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1606" />
             <source>Application</source>
             <translation>应用</translation>
         </message>
@@ -4930,7 +4892,7 @@ Do you want to exit the application?</source>
             <location filename="../nolimitgui/src/AppletFileOfferSelect.cpp" line="289" />
             <location filename="../nolimitgui/src/AppletFileOfferSelect.cpp" line="323" />
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="359" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2302" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2552" />
             <location filename="../nolimitgui/src/GuiParams.cpp" line="1357" />
             <source>File Not Found</source>
             <translation>找不到文件</translation>
@@ -5767,7 +5729,6 @@ If user is a friend with open port a attempt to reconnect will occur even after 
         </message>
         <message>
             <location filename="../nolimitgui/src/AppletJoinBase.cpp" line="374" />
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="128" />
             <source>?</source>
             <translation>？</translation>
         </message>
@@ -5920,7 +5881,7 @@ Remove this item from My Library and asset database?</source>
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="694" />
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="771" />
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="807" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2178" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2428" />
             <location filename="../nolimitgui/src/ThumbnailEditWidget.cpp" line="107" />
             <source>Could not get thumbnail file info</source>
             <translation>无法获取缩略图文件信息</translation>
@@ -5929,8 +5890,8 @@ Remove this item from My Library and asset database?</source>
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="695" />
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="772" />
             <location filename="../nolimitgui/src/AppletLibrary.cpp" line="808" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2173" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2179" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2423" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2429" />
             <location filename="../nolimitgui/src/ThumbnailEditWidget.cpp" line="108" />
             <source>Error occured creating thumbnail asset </source>
             <translation>创建缩略图资源时发生错误 </translation>
@@ -6437,22 +6398,22 @@ If the Network Key is incorrect, you will probably be banned as a hacker.</sourc
             <translation>会议结束</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2513" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2763" />
             <source>Confirm Shred File</source>
             <translation>确认粉碎文件</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2513" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2763" />
             <source>Confirm Delete File</source>
             <translation>确认删除文件</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2517" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2767" />
             <source>Are You Sure You Want To Write Random Data Into The File Then Delete From The Device?</source>
             <translation>您确定要将随机数据写入文件然后从设备中删除吗？</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2521" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2771" />
             <source>Are You Sure To Delete The File From The Device?</source>
             <translation>您确定要从设备中删除该文件吗？</translation>
         </message>
@@ -6910,94 +6871,36 @@ If the Network Key is incorrect, you will probably be banned as a hacker.</sourc
             <translation>选择5</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="125" />
-            <source>Confirm Login To Account</source>
-            <translation>确认登录帐户</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="126" />
-            <source>Are You Sure You Want To Login To Account </source>
-            <translation>您确定要登录帐户吗 </translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="197" />
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="236" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="116" />
             <source>Applied Mood Message Change </source>
             <translation>应用情绪信息变化 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="198" />
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="237" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="117" />
             <source>Mood Message Change Success</source>
             <translation>情绪信息改变成功</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="217" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="136" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="142" />
             <source>Applied Age and Preferred Content Change </source>
             <translation>适用年龄和偏好内容变化 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="218" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="136" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="142" />
             <source>Age and Preferred Content Success</source>
             <translation>年龄和偏好内容的成功</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="255" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="148" />
             <source>Applied Gender Change </source>
             <translation>应用性别改变 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="256" />
+            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="148" />
             <source>Gender Change Success</source>
             <translation>性别改变成功</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="298" />
-            <source>Confirm Create New Account</source>
-            <translation>确认创建新帐户</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="299" />
-            <source>Are You Sure You Want To Create A New Account?</source>
-            <translation>您确定要创建一个新帐户吗？</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="319" />
-            <source>Cannot Delete Account</source>
-            <translation>无法删除帐户</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="320" />
-            <source>Cannot Delete An Account That Is In Use</source>
-            <translation>无法删除正在使用的帐户</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="325" />
-            <source>Confirm Delete Account</source>
-            <translation>确认删除帐户</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="326" />
-            <source>Are You Sure You Want To Delete This Account?</source>
-            <translation>您确定要删除该帐户吗？</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="332" />
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="333" />
-            <source>Account was removed</source>
-            <translation>帐户已被删除</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="338" />
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="339" />
-            <source>A error occured and account was not removed</source>
-            <translation>发生错误，帐户未删除</translation>
-        </message>
-        <message>
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="348" />
-            <location filename="../nolimitgui/src/AppletUserIdentity.cpp" line="349" />
-            <source>Connot delete the last account</source>
-            <translation>不能删除最后一个帐户</translation>
         </message>
         <message>
             <location filename="../nolimitgui/src/AppletSoundSettings.cpp" line="578" />
@@ -7116,195 +7019,195 @@ If the Network Key is incorrect, you will probably be banned as a hacker.</sourc
             <translation>权限级别不足 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="62" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="70" />
             <source>Open Folder</source>
             <translation>打开文件夹</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="299" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="307" />
             <source>Select Media File</source>
             <translation>选择媒体文件</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="307" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="315" />
             <source>Select Video File</source>
             <translation>选择视频文件</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="317" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="325" />
             <source>Select Audio File</source>
             <translation>选择音频文件</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="326" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="334" />
             <source>Select Image File</source>
             <translation>选择图像文件</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="387" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="395" />
             <source>Cannot Read File</source>
             <translation>无法读取文件</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1307" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1313" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1319" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1325" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1331" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1337" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1343" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1557" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1563" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1569" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1575" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1581" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1587" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1593" />
             <source>Invalid User Name</source>
             <translation>用户名无效</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1307" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1557" />
             <source>User Name cannot have NoLimitConnect in name.</source>
             <translation>用户名中不能包含 NoLimitConnect。</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1313" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1563" />
             <source>User Name cannot have special character quote.</source>
             <translation>用户名不能有特殊字符引号。</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1319" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1569" />
             <source>User Name cannot have comma.</source>
             <translation>用户名不能有逗号。</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1325" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1575" />
             <source>User Name cannot have special character parentheses.</source>
             <translation>用户名不能有特殊字符括号。</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1331" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1581" />
             <source>User Name cannot have special character slashes.</source>
             <translation>用户名不能有特殊字符斜杠。</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1337" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1587" />
             <source>User Name is too long (maximum 31 chars).</source>
             <translation>用户名太长（最多 31 个字符）。</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1343" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1593" />
             <source>User Name is too short (minimum 4 chars).</source>
             <translation>用户名太短（至少 4 个字符）。</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1356" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1606" />
             <source>Mood Message is too long (maximum 31 chars)</source>
             <translation>心情消息太长（最多 31 个字符）</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1368" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1374" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1618" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1624" />
             <source>Age Verify</source>
             <translation>年龄验证</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1368" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1618" />
             <source>Invalid Age</source>
             <translation>无效年龄</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1374" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="1624" />
             <source>Age Connot be greater than 120 years old</source>
             <translation>年龄不能大于120岁</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2172" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2422" />
             <source>Could not create thumbnail asset</source>
             <translation>无法创建缩略图资源</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2231" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2481" />
             <source>User Unavailable</source>
             <translation>用户不可用</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2232" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2482" />
             <source>User </source>
             <translation>用户 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2232" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2482" />
             <source> Is Unavailable</source>
             <translation> 不可用</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2236" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2486" />
             <source>User is offline</source>
             <translation>用户离线</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2237" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2487" />
             <source>User is no longer connected</source>
             <translation>用户不再连接</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2241" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2491" />
             <source>Already In A Session</source>
             <translation>已在会话中</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2242" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2492" />
             <source>Already in session. Please close existing session and try again</source>
             <translation>已经在开会了。请关闭现有会话并重试</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2246" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2247" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2496" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2497" />
             <source>Session not found</source>
             <translation>未找到会话</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2251" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2501" />
             <source>Sent User An Offer</source>
             <translation>向用户发送报价</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2252" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2502" />
             <source>Offer Was Sent To  </source>
             <translation>报价已发送至  </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2256" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2506" />
             <source>Send Offer Failed</source>
             <translation>发送报价失败</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2257" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2507" />
             <source>Offer Send Failed  </source>
             <translation>报价发送失败  </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2261" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2511" />
             <source>Not Connected</source>
             <translation>未连接</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2262" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2512" />
             <source>You are not connected to host </source>
             <translation>您未连接到主机 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2266" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2516" />
             <source>No User Selected</source>
             <translation>未选择用户</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2267" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2517" />
             <source>You must select a user to send to </source>
             <translation>您必须选择要发送至的用户 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2271" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2521" />
             <source>Purge Everthing Warning</source>
             <translation>清除一切警告</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2272" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2522" />
             <source>This action will delete everything not locked including Identity, Downloaded Files, Storyboard, Message History Etc.
 The action cannot be undone
 Are you very sure you want to proceed?</source>
@@ -7313,221 +7216,221 @@ Are you very sure you want to proceed?</source>
 您确定要继续吗？</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2276" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2526" />
             <source>Voice Message Too Short</source>
             <translation>语音消息太短</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2277" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2527" />
             <source>The Voice Message was too short and will not be sent.</source>
             <translation>语音消息太短，不会发送。</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2281" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2531" />
             <source>Video clip Too Short</source>
             <translation>视频剪辑太短</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2282" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2532" />
             <source>The Video Clip was too short and will not be sent.</source>
             <translation>视频剪辑太短，不会发送。</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2286" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2536" />
             <source>Video record failed to start</source>
             <translation>视频录制无法开始</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2287" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2537" />
             <source>Video record failed to start.</source>
             <translation>视频录制无法开始。</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2292" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2542" />
             <source>Unknown Error </source>
             <translation>未知错误 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2292" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2542" />
             <source> for user </source>
             <translation> 对于用户 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2303" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2553" />
             <source>File Name Is Empty</source>
             <translation>文件名为空</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2311" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2312" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2561" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2562" />
             <source>Access File Permissions Denied By User</source>
             <translation>用户拒绝访问文件权限</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2320" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2570" />
             <source>Application Not Ready</source>
             <translation>申请未准备好</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2321" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2571" />
             <source>Cannot launch applet until network is available</source>
             <translation>在网络可用之前无法启动小程序</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2321" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2571" />
             <source>Cannot Launch Applet Until Application Has Initialized</source>
             <translation>在应用程序初始化之前无法启动小程序</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2329" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2579" />
             <source>Requires Open Port</source>
             <translation>需要开放端口</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2330" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2580" />
             <source>Action requires a open port</source>
             <translation>操作需要开放端口</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2338" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2347" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2588" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2597" />
             <source>Invalid Invite</source>
             <translation>邀请无效</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2339" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2589" />
             <source>The invite is invalid</source>
             <translation>邀请无效</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2348" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2598" />
             <source>Cannot accept invite from myself</source>
             <translation>无法接受我自己的邀请</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2356" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2606" />
             <source>Invalid User</source>
             <translation>无效用户</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2357" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2607" />
             <source>Could not find the user</source>
             <translation>找不到用户</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2365" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2615" />
             <source>User Not Online</source>
             <translation>用户不在线</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2366" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2616" />
             <source>The user is not currently online</source>
             <translation>用户当前不在线</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2374" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2624" />
             <source>Friendship Level To Low</source>
             <translation>友谊等级低</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2375" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2625" />
             <source>Requires friendship of friend or higher</source>
             <translation>需要朋友或更高级别的友谊</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2383" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2633" />
             <source>Invalid Host Id</source>
             <translation>主机 ID 无效</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2384" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2634" />
             <source>Host Id has not been set</source>
             <translation>主机ID尚未设置</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2392" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2642" />
             <source>Invalid URL</source>
             <translation>无效网址</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2393" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2643" />
             <source>The host url is not valid</source>
             <translation>主机 URL 无效</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2401" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2651" />
             <source>Invalid Host Type</source>
             <translation>主机类型无效</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2402" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2652" />
             <source>The host url does not have a vailid host type</source>
             <translation>主机 URL 没有有效的主机类型</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2410" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2660" />
             <source>No Members Online</source>
             <translation>没有会员在线</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2411" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2661" />
             <source>There are no members online to send to</source>
             <translation>没有在线会员可发送至</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2419" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2473" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2669" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2723" />
             <source>Failed to add asset</source>
             <translation>添加资产失败</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2420" />
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2474" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2670" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2724" />
             <source>Failed to add asset. Please check disk space</source>
             <translation>添加资产失败。请检查磁盘空间</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2429" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2679" />
             <source>Failed to send </source>
             <translation>发送失败 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2430" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2680" />
             <source>Failed to send to </source>
             <translation>发送失败 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2440" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2690" />
             <source>No members to send to</source>
             <translation>没有可发送给的会员</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2444" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2694" />
             <source>Admin is offline</source>
             <translation>管理员离线</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2448" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2698" />
             <source>Cannot send to self</source>
             <translation>无法发送给自己</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2452" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2702" />
             <source>Invalid host or state</source>
             <translation>无效的主机或状态</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2456" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2706" />
             <source>Unknown reason</source>
             <translation>原因不明</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2464" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2714" />
             <source>Cannot send </source>
             <translation>无法发送 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2465" />
+            <location filename="../nolimitgui/src/GuiHelpers.cpp" line="2715" />
             <source>Cannot send reason: </source>
             <translation>无法发送原因： </translation>
         </message>
@@ -9955,60 +9858,60 @@ Are you very sure you want to proceed?</source>
  应用程序将退出</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="538" />
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="630" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="543" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="635" />
             <source>Invalid emoticon id</source>
             <translation>表情符号 ID 无效</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="574" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="579" />
             <source>Error occured creating emoticon file</source>
             <translation>创建表情文件时出错</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="631" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="636" />
             <source>Invalid emoticon id </source>
             <translation>表情符号 ID 无效 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="673" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="675" />
             <source>Could not create emoticon asset</source>
             <translation>无法创建表情资源</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="674" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="676" />
             <source>Error occured creating emoticon asset </source>
             <translation>创建表情资源时发生错误 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="679" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="681" />
             <source>Could not get file info of emoticon png file</source>
             <translation>无法获取表情png文件的文件信息</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="680" />
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="686" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="682" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="688" />
             <source>Error occured creating emoticon file </source>
             <translation>创建表情文件时出错 </translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="685" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="687" />
             <source>Could not create emoticon png file</source>
             <translation>无法创建表情png文件</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="691" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="693" />
             <source>Could not create emoticon image</source>
             <translation>无法创建表情图像</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="692" />
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="712" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="694" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="714" />
             <source>Error occured creating emoticon image %1</source>
             <translation>创建表情图像 %1 时发生错误</translation>
         </message>
         <message>
-            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="711" />
+            <location filename="../nolimitgui/src/GuiThumbMgr.cpp" line="713" />
             <source>Could create emoticon image</source>
             <translation>可以创建表情图像</translation>
         </message>

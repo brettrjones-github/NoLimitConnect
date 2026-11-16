@@ -46,7 +46,6 @@
         "**/libs/androidNdk/**": true,
         "**/libs/ffmpeg/**": true,
         "**/libs/flatbuffers/**": true,
-        "**/libs/libasprintf/**": true,
         "**/libs/libass/**": true,
         "**/libs/libcrossguid/**": true,
         "**/libs/libdav1d/**": true,

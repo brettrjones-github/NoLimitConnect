@@ -484,46 +484,6 @@ std::string AccountDb::getLastNetHostSettingName( void )
 }
 
 //============================================================================
-bool AccountDb::getAllAccounts( std::vector<VxNetIdent>& accountList )
-{
-    accountList.clear();
-
-    bool bResult = false;
-    DbCursor * cursor = startQueryInsecure( "SELECT * FROM account_login" );
-    if( nullptr != cursor )
-    {
-        while( cursor->getNextRow() )
-        {
-            int iBlobLen = 0;
-            VxNetIdent* netIdent = ( VxNetIdent* )cursor->getBlob( 2, &iBlobLen );
-            if( iBlobLen == (int)sizeof( VxNetIdent ) )
-            {
-                accountList.push_back( *netIdent );
-                bResult = true;
-            }
-            else if( iBlobLen >= (int)sizeof( VxConnectIdent ) )
-            {
-                LogMsg( LOG_ERROR, "AccountDb::getAllAccounts: incorrect blob len in db.. was code changed????" );
-                cursor->close();
-                // remove the invalid blob
-                DbBindList bindList( netIdent->getOnlineName() );
-                int32_t rc = sqlExec( "DELETE FROM account_login WHERE online_name=?", bindList );
-                if( rc )
-                {
-                    LogMsg( LOG_ERROR, "AccountDb::getAccountByName: could not remove login by name %s", netIdent->getOnlineName() );
-                }
-
-                return false;
-            }
-        }
-
-        cursor->close();
-    }
-
-    return bResult && accountList.size() > 0;
-}
-
-//============================================================================
 void AccountDb::createDefaultNetworkSettings( void )
 {
 	// get port to listen on 

@@ -41,10 +41,6 @@ public slots:
     void                        slotEditStoryboardButClick( void );
     void                        slotViewStoryboardButClick( void );
 
-    void						slotCreateNewAccount( void );
-    void						slotDeleteAccount( void );
-
-    void                        slotAccountSelectionChanged( int idx );
     void                        slotAvatarImageChanged( ThumbInfo* avatarThumb );
     void                        slotAvatarImageRemoved( void );
 
@@ -57,7 +53,7 @@ protected:
     //! validate user input
     QString						validateString( QString charSeq );
     bool                        validateMoodMessage( void );
-    void                        resetComboIdxToOriginalAccount( void );
+    void                        applyPersonalInfoChange( const QString& successTitle, const QString& successMsg );
 
     //=== constants ===//
     static const int SELECT_IMAGE = 0; // selector for image gallery call
@@ -65,11 +61,8 @@ protected:
 
     //=== vars ===//
     Ui::AppletUserIdentityUi&	ui;
-    std::vector<VxNetIdent>     m_AccountList;
 
     UserProfile 				m_UserProfile;
-    VxNetIdent*				    m_CurIdent = nullptr;
-    QString                     m_strOrigOnlineName;
     QString                     m_strOrigMoodMessage;
 
     std::string					m_strDefaultPicPath;

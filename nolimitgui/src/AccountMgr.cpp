@@ -54,12 +54,6 @@ bool AccountMgr::removeAccountByName( const char* name )
 }
 
 //============================================================================
-bool AccountMgr::getAllAccounts( std::vector<VxNetIdent>& accountList )
-{
-    return m_AccountDb.getAllAccounts( accountList );
-}
-
-//============================================================================
 bool AccountMgr::getUserProfile( VxNetIdent& userAccount, UserProfile& oProfile )
 {
     return m_AccountDb.getUserProfile( userAccount, oProfile );

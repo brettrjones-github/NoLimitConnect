@@ -66,20 +66,6 @@
         <number>5</number>
        </property>
        <item>
-        <layout class="QHBoxLayout" name="horizontalLayout_8">
-         <item>
-          <widget class="QListWidget" name="m_AccountListWidget"/>
-         </item>
-         <item>
-          <widget class="QPushButton" name="m_DeleteAccountButton">
-           <property name="text">
-            <string>Delete Account</string>
-           </property>
-          </widget>
-         </item>
-        </layout>
-       </item>
-       <item>
         <widget class="QGroupBox" name="m_OnlineIdentityGroupBox">
          <property name="title">
           <string>Online Identity</string>
@@ -110,12 +96,16 @@
               <item>
                <widget class="QLabel" name="m_UserNameLabel">
                 <property name="text">
-                 <string>Select Account</string>
+                 <string>User Name</string>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QComboBox" name="m_AccountComboBox"/>
+               <widget class="QLabel" name="m_UserNameValueLabel">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
               </item>
              </layout>
             </item>
@@ -131,7 +121,7 @@
               <item>
                <widget class="QLabel" name="m_MoodMessageLabel">
                 <property name="text">
-                 <string>Mood Message: ( Up to 27 characters )</string>
+                 <string>Mood Message: ( Up to 31 characters )</string>
                 </property>
                </widget>
               </item>
@@ -145,6 +135,9 @@
                 </property>
                 <property name="text">
                  <string>Let's Communicate!</string>
+                </property>
+                <property name="maxLength">
+                 <number>31</number>
                 </property>
                </widget>
               </item>
@@ -495,13 +488,6 @@
            </widget>
           </item>
          </layout>
-        </widget>
-       </item>
-       <item>
-        <widget class="QPushButton" name="m_CreateNewAccountButton">
-         <property name="text">
-          <string>Create New Account</string>
-         </property>
         </widget>
        </item>
       </layout>

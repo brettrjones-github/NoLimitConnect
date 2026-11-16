@@ -58,4 +58,4 @@ Contributions are welcome and currently follow a simple fork + pull request work
 *   **Trademarks:** The **NoLimitConnect** name and logo are trademarks of Brett R. Jones and are **not** covered by the GPL — see [`TRADEMARK.md`](TRADEMARK.md). You may redistribute unmodified builds, and package the project for app stores and distribution repositories, under the mark; branding a functionally modified fork with it requires permission.
 *   **Principles:** No ads. No data mining. No analytics. No tracking.
 
-**Project Status:** Active Development (v1.1.5)
+**Project Status:** Active Development (v1.1.7)

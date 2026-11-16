@@ -75,7 +75,7 @@ jobs:
           ostree --repo=docs/nlc-repo init --mode=archive
 
           echo "=== Fetching Dynamic Release Metadata ==="
-          RELEASE_JSON=$(curl -fsSL "https://api.github.com/repos/nolimitconnect/NoLimitConnect/releases/latest")
+          RELEASE_JSON=$(curl -fsSL "https://api.github.com/repos/brettrjones-github/NoLimitConnect/releases/latest")
 
           mkdir -p /tmp/nlc-flatpaks
           echo "$RELEASE_JSON" | jq -r '.assets[]? | select(.name | endswith(".flatpak")) | .browser_download_url' > /tmp/nlc-flatpaks/urls.txt

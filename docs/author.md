@@ -8,7 +8,7 @@ My name is Brett R. Jones, and I am the author of NoLimitConnect.
 NoLimitConnect is a complete, modern, multilingual communication platform built for privacy, control, and user freedom.
 
 If you are technical and want to help lead NoLimitConnect forward, issues can be opened at:
-[https://github.com/nolimitconnect/NoLimitConnect/issues](https://github.com/nolimitconnect/NoLimitConnect/issues)
+[https://github.com/brettrjones-github/NoLimitConnect/issues](https://github.com/brettrjones-github/NoLimitConnect/issues)
 
 If you want to help in other ways, discussions are available at:
 [https://github.com/orgs/nolimitconnect/discussions](https://github.com/orgs/nolimitconnect/discussions)

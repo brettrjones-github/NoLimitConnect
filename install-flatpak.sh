@@ -32,7 +32,7 @@ fi
 
 if ! curl -fsSI "$REMOTE_SUMMARY_SIG_URL" >/dev/null || ! curl -fsSI "$REMOTE_SUMMARY_IDX_SIG_URL" >/dev/null; then
   arch="$(uname -m | sed -E 's/(aarch64|arm64)/arm64/;s/(x86_64|amd64|x64)/x64/')"
-  bundle_url="https://github.com/nolimitconnect/NoLimitConnect/releases/latest/download/nolimitconnect-${arch}.flatpak"
+  bundle_url="https://github.com/brettrjones-github/NoLimitConnect/releases/latest/download/nolimitconnect-${arch}.flatpak"
   bundle_file="$(mktemp --suffix=.flatpak)"
   trap 'rm -f "$bundle_file"' EXIT
 

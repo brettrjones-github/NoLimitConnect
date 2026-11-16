@@ -8,7 +8,7 @@ This page is for casual contributors who want to make one useful change quickly.
 - Improve unclear wording in user-docs/
 - Update an outdated screenshot caption or heading
 
-Issue tracker: https://github.com/nolimitconnect/NoLimitConnect/issues
+Issue tracker: https://github.com/brettrjones-github/NoLimitConnect/issues
 
 ## 2. Make the Change
 

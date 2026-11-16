@@ -13,7 +13,7 @@ Project contact:
 
 ### I have 30 minutes
 
-1. Pick a docs issue or typo from [Issues](https://github.com/nolimitconnect/NoLimitConnect/issues).
+1. Pick a docs issue or typo from [Issues](https://github.com/brettrjones-github/NoLimitConnect/issues).
 2. Edit files under docs/.
 3. Open a small PR.
 

@@ -24,7 +24,7 @@ Each platform deploy uploads:
 Download URL pattern:
 
 ```text
-https://github.com/nolimitconnect/NoLimitConnect/releases/download/<tag>/<filename>
+https://github.com/brettrjones-github/NoLimitConnect/releases/download/<tag>/<filename>
 ```
 
 ## Authentication

@@ -90,4 +90,4 @@ Preferred Qt version: 6.9.3 (6.7.3 for Raspberry Pi only if Qt Creator has error
 
 ## Bug Tracker
 
-➡️ **<https://github.com/nolimitconnect/NoLimitConnect/issues>**
+➡️ **<https://github.com/brettrjones-github/NoLimitConnect/issues>**

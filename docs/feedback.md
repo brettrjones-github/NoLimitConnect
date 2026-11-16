@@ -2,7 +2,7 @@
 
 Feedback and bug reports are managed through the NoLimitConnect issue tracker:
 
-**[https://github.com/nolimitconnect/NoLimitConnect/issues](https://github.com/nolimitconnect/NoLimitConnect/issues)**
+**[https://github.com/brettrjones-github/NoLimitConnect/issues](https://github.com/brettrjones-github/NoLimitConnect/issues)**
 
 ---
 
@@ -33,7 +33,7 @@ Reports without reproduction steps may be difficult to investigate and may be cl
 
 ## Submitting Your Report
 
-1. Go to the issue tracker: [https://github.com/nolimitconnect/NoLimitConnect/issues](https://github.com/nolimitconnect/NoLimitConnect/issues)
+1. Go to the issue tracker: [https://github.com/brettrjones-github/NoLimitConnect/issues](https://github.com/brettrjones-github/NoLimitConnect/issues)
 2. Click **New Issue**
 3. Include your device info, issue description, and reproduction steps
 4. Submit the issue

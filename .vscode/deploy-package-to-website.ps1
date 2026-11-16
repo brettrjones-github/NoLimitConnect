@@ -5,7 +5,7 @@ param(
 
     [string]$WorkspaceRoot = '',
     [string]$WebsiteRoot = $(if ($env:NLC_WEBSITE_ROOT) { $env:NLC_WEBSITE_ROOT } else { '' }),
-    [string]$GitHubRepository = 'nolimitconnect/NoLimitConnect',
+    [string]$GitHubRepository = 'brettrjones-github/NoLimitConnect',
     [string]$GitHubApiBaseUrl = 'https://api.github.com',
     [string]$GitHubReleaseTag = '',
     [switch]$SkipWebsiteUpdate,

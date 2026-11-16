@@ -28,6 +28,6 @@ NoLimitConnect is built natively in **C/C++ with optimized Assembly modules** fo
 
 To ensure the long-term survival and deployment of this censorship-resistant architecture, the core team is currently seeking an **open-source organization or foundation** to take over primary project stewardship, code maintenance, and global distribution. 
 
-* **Current Codebase:** [GitHub Repository](https://github.com/nolimitconnect/NoLimitConnect)
+* **Current Codebase:** [GitHub Repository](https://github.com/brettrjones-github/NoLimitConnect)
 * **Target Platforms:** Android, Linux, Windows
 * **Contact for Handover Inquiries:** [bjones.engineer@gmail.com]

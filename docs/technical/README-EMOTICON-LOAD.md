@@ -108,7 +108,7 @@ void signalEmoticonCacheReady();
 
 ## Files Modified
 
-- [GuiThumbMgr.h](https://github.com/nolimitconnect/NoLimitConnect/blob/main/nolimitgui/src/GuiThumbMgr.h) - Cache members, public API
-- [GuiThumbMgr.cpp](https://github.com/nolimitconnect/NoLimitConnect/blob/main/nolimitgui/src/GuiThumbMgr.cpp) - Implementation
-- [InputFaceWidget.h](https://github.com/nolimitconnect/NoLimitConnect/blob/main/nolimitgui/src/InputFaceWidget.h) - Removed unused members
-- [InputFaceWidget.cpp](https://github.com/nolimitconnect/NoLimitConnect/blob/main/nolimitgui/src/InputFaceWidget.cpp) - Use cache API
+- [GuiThumbMgr.h](https://github.com/brettrjones-github/NoLimitConnect/blob/main/nolimitgui/src/GuiThumbMgr.h) - Cache members, public API
+- [GuiThumbMgr.cpp](https://github.com/brettrjones-github/NoLimitConnect/blob/main/nolimitgui/src/GuiThumbMgr.cpp) - Implementation
+- [InputFaceWidget.h](https://github.com/brettrjones-github/NoLimitConnect/blob/main/nolimitgui/src/InputFaceWidget.h) - Removed unused members
+- [InputFaceWidget.cpp](https://github.com/brettrjones-github/NoLimitConnect/blob/main/nolimitgui/src/InputFaceWidget.cpp) - Use cache API

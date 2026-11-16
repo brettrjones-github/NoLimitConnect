@@ -1,6 +1,6 @@
 (function () {
 
-  var githubLatestReleaseApi = 'https://api.github.com/repos/nolimitconnect/NoLimitConnect/releases/latest';
+  var githubLatestReleaseApi = 'https://api.github.com/repos/brettrjones-github/NoLimitConnect/releases/latest';
   var flatpakSignatureUrls = [
     '/nlc-repo/summary.sig',
     '/nlc-repo/summary.idx.sig'

@@ -6,7 +6,7 @@ NoLimitConnect is available via Flatpak:
 2. Install or update the source repository if building locally.
 3. Checkout source if building locally:
 ```bash
-git clone https://github.com/nolimitconnect/NoLimitConnect.git
+git clone https://github.com/brettrjones-github/NoLimitConnect.git
 ```
 
 4. Build and install:

@@ -41,14 +41,14 @@ Available at: [https://nolimitconnect.org](https://nolimitconnect.org)
 
 **Source Code:**
 ```bash
-git clone https://github.com/nolimitconnect/NoLimitConnect.git
+git clone https://github.com/brettrjones-github/NoLimitConnect.git
 ```
 
 ### 🤝 Contributing
 Contributions are welcome and currently follow a simple fork + pull request workflow.
 
 - Contribution guide: [CONTRIBUTING.md](CONTRIBUTING.md)
-- Issue tracker: <https://github.com/nolimitconnect/NoLimitConnect/issues>
+- Issue tracker: <https://github.com/brettrjones-github/NoLimitConnect/issues>
 
 ---
 

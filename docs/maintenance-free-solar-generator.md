@@ -545,7 +545,7 @@ read, use, or build on. The author is not seeking to license, sell, or commercia
 **Publication record.** First published 18 August 2026 at
 [nolimitconnect.org](https://nolimitconnect.org), most recently revised 6 September 2026. Authorship
 and revision history are recorded in the project's public Git repository at
-[github.com/nolimitconnect/NoLimitConnect](https://github.com/nolimitconnect/NoLimitConnect).
+[github.com/brettrjones-github/NoLimitConnect](https://github.com/brettrjones-github/NoLimitConnect).
 
 **License.** © 2026 Brett R. Jones. Text and figures released under
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)

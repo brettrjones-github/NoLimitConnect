@@ -56,8 +56,8 @@ flatpak uninstall --delete-data org.nolimitconnect.NoLimitConnect
 
 ### Direct Download (All Architectures)
 
-- **x86_64**: [nolimitconnect-x64.flatpak](https://github.com/nolimitconnect/NoLimitConnect/releases/download/v1.1.2/nolimitconnect-x64.flatpak) | [SHA-256](https://github.com/nolimitconnect/NoLimitConnect/releases/download/v1.1.2/nolimitconnect-x64.flatpak.sha256)
-- **ARM64**: [nolimitconnect-arm64.flatpak](https://github.com/nolimitconnect/NoLimitConnect/releases/download/v1.1.2/nolimitconnect-arm64.flatpak) | [SHA-256](https://github.com/nolimitconnect/NoLimitConnect/releases/download/v1.1.2/nolimitconnect-arm64.flatpak.sha256)
+- **x86_64**: [nolimitconnect-x64.flatpak](https://github.com/brettrjones-github/NoLimitConnect/releases/download/v1.1.2/nolimitconnect-x64.flatpak) | [SHA-256](https://github.com/brettrjones-github/NoLimitConnect/releases/download/v1.1.2/nolimitconnect-x64.flatpak.sha256)
+- **ARM64**: [nolimitconnect-arm64.flatpak](https://github.com/brettrjones-github/NoLimitConnect/releases/download/v1.1.2/nolimitconnect-arm64.flatpak) | [SHA-256](https://github.com/brettrjones-github/NoLimitConnect/releases/download/v1.1.2/nolimitconnect-arm64.flatpak.sha256)
 - Last updated: 2026-05-11 22:02:54 UTC
 - Flatpak remote metadata is GPG-signed. Import the key above before adding the remote.
 

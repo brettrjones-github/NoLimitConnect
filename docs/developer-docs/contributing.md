@@ -16,7 +16,7 @@ This project currently uses a lightweight workflow that works well for a single 
 2. Clone your fork locally.
 3. Create a branch for your change.
 4. Commit and push your branch to your fork.
-5. Open a pull request to nolimitconnect/NoLimitConnect main.
+5. Open a pull request to brettrjones-github/NoLimitConnect main.
 
 ## Local docs preview
 
@@ -50,4 +50,4 @@ For security issues, follow SECURITY.md and avoid public disclosure in issues.
 ## Also see
 
 - Root contribution guide in CONTRIBUTING.md
-- Issue tracker: https://github.com/nolimitconnect/NoLimitConnect/issues
+- Issue tracker: https://github.com/brettrjones-github/NoLimitConnect/issues

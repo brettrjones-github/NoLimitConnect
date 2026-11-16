@@ -34,7 +34,7 @@ git push -u origin docs/plugin-system-overview
 
 Then open a PR from your fork branch to:
 
-- base repository: nolimitconnect/NoLimitConnect
+- base repository: brettrjones-github/NoLimitConnect
 - base branch: main
 
 ## What To Work On First

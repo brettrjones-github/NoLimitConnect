@@ -46,7 +46,7 @@
 5. Clone the NoLimitConnect project:
 
     ```bash
-    git clone https://github.com/nolimitconnect/NoLimitConnect.git
+    git clone https://github.com/brettrjones-github/NoLimitConnect.git
     cd nolimitconnect
     ```
 

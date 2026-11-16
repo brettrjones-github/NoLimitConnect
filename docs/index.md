@@ -110,7 +110,7 @@ User guides, developer docs, and build instructions included.
 
 NoLimitConnect is built by a privacy-focused community dedicated to open communication and secure, decentralized technology.
 
-[Visit our GitHub Source Code Repo →](https://github.com/nolimitconnect/NoLimitConnect)
+[Visit our GitHub Source Code Repo →](https://github.com/brettrjones-github/NoLimitConnect)
 
 ## 🔬 Independent Research
 
@@ -126,6 +126,6 @@ mirror field and a zero-wear, NASA-heritage free-piston Stirling engine.
 The website and repository have moved.
 
 - Website: nolimitconnect.com -> nolimitconnect.org
-- Repository: gitlab.com/nolimitcode/nolimitconnect.git -> github.com/nolimitconnect/NoLimitConnect.git
+- Repository: gitlab.com/nolimitcode/nolimitconnect.git -> github.com/brettrjones-github/NoLimitConnect.git
 
 [Read about High-Risk / Low-Bandwidth Environments](high-risk-low-bandwidth.md)

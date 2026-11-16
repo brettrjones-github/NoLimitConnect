@@ -41,7 +41,7 @@ modules:
         path: ./
       # Then for specific version like
       #- type: archive
-      #  url: https://github.com/nolimitconnect/NoLimitConnect/archive/88d20b46b6051c094f6219a0a2ae91b7d0e18eb6.tar.gz
+      #  url: https://github.com/brettrjones-github/NoLimitConnect/archive/88d20b46b6051c094f6219a0a2ae91b7d0e18eb6.tar.gz
       #  sha256: a96c4ee3d9ee01f61ee7d9960de05a701decf07c0cc189c798ca45540ae2ae38
 
     post-install:

@@ -45,7 +45,7 @@ Website: [nolimitconnect.org](https://nolimitconnect.org)
 
 Open-source code that can be cloned with:
 
-`git clone https://github.com/nolimitconnect/NoLimitConnect`
+`git clone https://github.com/brettrjones-github/NoLimitConnect`
 
 ## Usage
 

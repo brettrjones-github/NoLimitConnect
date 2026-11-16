@@ -2,7 +2,7 @@
 
 Website: https://nolimitconnect.org
 
-Source repository: https://github.com/nolimitconnect/NoLimitConnect.git
+Source repository: https://github.com/brettrjones-github/NoLimitConnect.git
 
 ## Version 1.1.6
 Remove libgnu and add CoreLib/VxPosixCompat.cpp with the few functions needed from libgnu

@@ -53,7 +53,7 @@ def parse_args() -> argparse.Namespace:
         "-GitHubRepository",
         "--github-repository",
         dest="github_repository",
-        default="nolimitconnect/NoLimitConnect",
+        default="brettrjones-github/NoLimitConnect",
     )
     parser.add_argument(
         "-GitHubApiBaseUrl",

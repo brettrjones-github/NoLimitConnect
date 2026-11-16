@@ -2,12 +2,12 @@
 Website: http://nolimitconnect.org
 NoLimitConnect Application - A distributed social network
 Open Sourced mostly C/C++ code can be cloned with 
-git clone https://github.com/nolimitconnect/NoLimitConnect.git
+git clone https://github.com/brettrjones-github/NoLimitConnect.git
 
 ## Repository
 
-- Source: https://github.com/nolimitconnect/NoLimitConnect
-- Issues: https://github.com/nolimitconnect/NoLimitConnect/issues
+- Source: https://github.com/brettrjones-github/NoLimitConnect
+- Issues: https://github.com/brettrjones-github/NoLimitConnect/issues
 
 ## Build And Run
 
